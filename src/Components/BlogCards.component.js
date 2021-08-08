@@ -14,7 +14,7 @@ function BlogCards() {
                         <h2>What kind of learner are you? Take our online quiz to find out.</h2>
                     </div>
                     <div class="read-more-link">
-                        <a href="#">Read more...</a>
+                        <a href="google.com">Read more...</a>
                     </div>
                 </div>
             </div>
