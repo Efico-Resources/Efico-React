@@ -3,7 +3,7 @@ import React from 'react'
 function BlogCards() {
     return (
         <div class="blog-img-container">
-            <img src="Assets/img/bimg-1.png" alt="Blog Image 1" />
+            <img src="Assets/img/bimg-1.png" alt="Blog 1" />
             <div class="blog-contents">
                 <div class="blog-descriptions">
                     <div class="blog-details">
