@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('../index.css');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --efico-yellow: #E1DB46;
+    --efico-purple: #3C185B;
+    --background-dim: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48));
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    background: #F3F3F3 !important;
+}
+
+.about-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .about-text-container{
+        margin: auto;
+        padding: 7rem 4rem;
+    }
+}
+
+.we-stand-for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 40px;
+    .section-header{
+        margin-bottom: 50px;
+    }
+    .wsf-button-container{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        .wsf-button{
+            margin: auto;
+            text-align: center;
+            .wsf-button-content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 6rem;
+                background: white;
+                padding: 40px 70px;
+                flex-wrap: wrap;
+                // animation: reveal 3s ease-in-out;
+                transition: all 1s ease-in-out;
+                // height: 0px;
+                .image{
+                    img{
+                        width: 13rem;
+                        height: 13rem;
+                    }
+                }
+            }
+            .wsf-btn{
+                width: 202px;
+                padding: 16px 10px;
+            }
+            .block{
+                display: flex;
+            }
+            .none{
+                display: none;
+            }
+        }
+    }
+}
+
+// .move-up{
+//     position: absolute;
+//     top: 0;
+// }
+// @keyframes reveal {
+//     0%{display: none; height: 0;}
+//     50%{display: none; height: auto;}
+//     100%{display: flex; height: 350px;}
+// }

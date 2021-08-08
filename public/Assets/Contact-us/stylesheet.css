@@ -1,0 +1,322 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+#head{
+	background: rgba(0,0,0,0.48)url(contact-img.jpg);
+	background-size:cover;
+	background-blend-mode: darken;
+	height: 100vh;
+	text-align: center; 
+	color: #fff;
+}
+#head h1{
+	
+	text-transform: capitalize;
+	vertical-align: center;
+	padding-bottom: 1.8em;
+	font-weight: bolder;
+	padding-top: 25%;
+
+}
+#head h5{
+max-width: 50%;
+margin: 0px auto;
+
+}
+#body{
+	background: #f3f3f3;
+	padding-bottom: 2em;
+}
+
+#contact-info{
+	text-align: center;
+	padding: 5em;
+	background-color: #f3f3f3;
+}
+#contact-info h1{
+	padding-bottom: 1.7em;
+	font-size: 1.5em;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.row1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2em;
+	flex-wrap: wrap;
+}
+
+.child1 h3{
+	font-size: 1em;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+#contact-info h3{
+	font-size: 1em;
+	font-weight: bold;
+}
+/* .fas, .fab{
+    margin-left: 1em;
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: .102em .15em rgba(0,0,0,0.2);
+    border-radius: 50%;
+    padding: 0.2em;
+    color: #000;
+} */
+
+.fas a, .fab a{
+	color: #000;
+}
+
+.sm{
+	margin-bottom: 2em;
+}
+
+.faq{
+	color: #3C185B;
+
+}
+
+
+#sponsor{
+	text-align: center;
+	background: #f3f3f3;
+}
+
+#sponsor h3{
+padding-bottom:2em;
+font-size: 1.7em;
+font-weight: bolder;
+text-transform: capitalize; 
+}
+
+#sponsor h5{
+	padding-bottom: 2em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#sponsor p{
+	padding-bottom: 2em;
+	margin: 0 auto;
+	max-width: 50%;
+	font-size: .9em;
+}
+
+#sponsor button{
+	background: #3C185B;
+	padding: 1em 5em;
+	border-radius: 10px;
+	margin: 0em auto 5em auto;
+	border: none;
+	outline: none;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#contact-form{
+	background: #f3f3f3;
+	max-width: 90%;
+	margin: auto;
+
+}
+
+#contact-form h2{
+padding-bottom:1.5em;
+font-size: 1.7em;
+font-weight: bolder;
+text-transform: capitalize; 
+text-align: center;
+}
+
+#contact-form h5{
+	padding-bottom: 1.5em;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	max-width: 100%;
+}
+
+.form-input{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 1.5em;
+
+}
+.form-input input{
+	width: 40vw;
+	border-radius: 10px;
+	border: 1px solid #C4C4C4;
+	padding: 1em;
+	margin-bottom: 2.3em;
+	
+}
+
+.form-input label{
+	font-size: .95em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	
+
+}
+
+
+.ser{
+	text-align: left;
+	font-size: .95em;
+	font-weight: bold;
+	text-transform: capitalize;
+	
+	margin-bottom: 1.2em;
+}
+.services-con{
+	margin-bottom: 2em;
+}
+.services{
+	margin-left: auto;
+	margin-right: auto;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.services button{
+	width: 22vw;
+	border: 1px solid #3C185B;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+	padding: 1em; 
+}
+
+#message{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5em;
+	border: 1px solid #C4C4C4;
+	border-radius: 5px;
+}
+
+.msg h4{
+	font-size: .95em;
+	font-weight: bold;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+input[type="submit"]{
+background: #3C185B;
+	padding: 1em 5em;
+	border-radius: 10px;
+	margin-bottom: 2em;
+	margin: 2em auto;
+	border: none;
+	outline: none;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+@media  (max-width:576px){
+	#head{
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 50vh;
+		
+	
+	}
+	.child1{
+		padding-bottom: 1.7em;
+	}
+	.row1,.form-input{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+.form-input input{
+	width: 100%;
+	padding: .8em;
+}
+.services{
+	display: flex;	
+	justify-content: space-between;
+}
+.services button{
+	width: 42vw;
+	margin-bottom: 1em;
+	font-size: .7em;
+	text-align: center;
+	height: 3.7em;
+}
+#sponsor p,#head h5{
+max-width: 100%;
+}
+.fas,.fab{
+	margin-left: 0.01em;
+	margin-left: 0px;
+	font-size: 0.7em;
+}
+.faq{
+	font-size: .8em;
+	font-weight: bold;
+}
+
+h4,h5,.msg h4,#contact-form h5,.ser,#sponsor h5{
+	font-size: 0.8em; 
+	font-weight: bold;
+}
+#head h5{
+	padding-bottom: 5em;
+}
+.form-input label{
+	font-size: .8em;
+	font-weight: bold;
+}
+.row1 p,.row1 h3{
+	font-size: 0.7em;
+}
+.row1 h3{
+	font-weight: bold;
+}
+input[type="submit"]{
+	max-width: 80%;
+}
+#contact-info h3{
+	font-size: 0.8em;
+}
+}
+
+
+
+
+@media only screen and (max-width: 896px) 
+and (min-width: 450px) {
+	#head{
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		
+	}
+
+	.services button{
+	width: 26.7vw;
+	margin-bottom: 1em;
+	height: 3.5em;
+	font-size: .95em;
+	text-align: center;
+}
+#sponsor p,#head h5{
+max-width: 100%;
+}
+}
