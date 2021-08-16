@@ -1,0 +1,159 @@
+/* .nav-container{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+} */
+
+.nav-item{
+	color: #252525;
+	font-weight: bold;
+	margin-right: 1.2em;
+}
+.nav-item .nav-link{
+	color: white;
+}
+.nav-item .nav-link:hover{
+	transform: scale(1.07);
+	color: #3C185B;
+}
+.navbar-toggler, .mobile-navbtn i{
+	color: white;
+	outline: none !important;
+}
+.navbar{
+	background: transparent;	
+}
+.navbar .nav-link:hover{
+	color: #3C185B;
+}
+#navBar img{
+	max-width: 120px;
+}
+
+#footer{
+	padding: 2em;
+	font-family: montserrat;
+	color: #fff;
+}
+
+#form{
+	
+margin-bottom: 2em;	
+}
+/*.flex{
+	display: flex;
+	flex-wrap: wrap;
+
+}*/
+.head{
+	padding:0.7em 0em 0.7em 0em;
+}
+footer a{
+	color: #fff;
+	text-align: center;
+	padding: 0.5em;
+}
+
+footer a:hover{
+	color:#E1DB46;
+	text-decoration: none; 
+}
+.row{
+	padding-bottom: 2em;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	list-style: none;
+	text-align: left;
+}
+#email{
+	padding: 0.8em;
+	width: 37em;
+	border-radius: 4%;
+	margin-right:2em;
+
+
+}
+#submit{
+	border-radius: 11px;
+	padding: 0.8em;
+	background: #E1DB46;
+	width: 13em;
+	font-size: 1em;
+	font-weight: bold;
+	color: #252525
+
+}
+.col-con{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.cont{
+padding-bottom: 1em
+}
+
+.co2, .co3{
+	text-align: left;
+	padding-bottom: 0.5em;
+}
+.con{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: flex-end; 
+}
+
+.child1{
+	order: 1;
+}
+.child2{
+	order: 2;
+}
+
+@media (max-width: 768px){
+	#email{
+		width: 100%;
+	}
+	.head{
+		font-size: 1.65em;
+	}
+	.co2, .co3{
+		text-align: left;
+	}
+	.cont{
+		padding-bottom:.5em;
+	}
+	
+}
+
+@media (max-width: 576px){
+	.head{
+		font-size: 1.2em;
+	}
+		.co2, .co3{
+		text-align: left;
+	}
+	.fab{
+		padding: 0.1em 0em 0.1em 0em;
+		size: 1.5px;
+	}
+	.child1{
+		font-size: 0.9em;
+	}
+	.cont{
+ padding-bottom: .2em;
+	}
+}
+
+@media (min-width: 1199px){
+	#navBar img{
+		max-width: 120px;
+	}
+	.nav-item{
+		padding: 1.2em;
+	}
+}

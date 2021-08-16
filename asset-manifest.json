@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Efico-Resources/Efico-React/static/css/main.a617e044.chunk.css",
+    "main.js": "/Efico-Resources/Efico-React/static/js/main.3727a895.chunk.js",
+    "main.js.map": "/Efico-Resources/Efico-React/static/js/main.3727a895.chunk.js.map",
+    "runtime-main.js": "/Efico-Resources/Efico-React/static/js/runtime-main.94e00bd5.js",
+    "runtime-main.js.map": "/Efico-Resources/Efico-React/static/js/runtime-main.94e00bd5.js.map",
+    "static/css/2.0cc22735.chunk.css": "/Efico-Resources/Efico-React/static/css/2.0cc22735.chunk.css",
+    "static/js/2.96e49017.chunk.js": "/Efico-Resources/Efico-React/static/js/2.96e49017.chunk.js",
+    "static/js/2.96e49017.chunk.js.map": "/Efico-Resources/Efico-React/static/js/2.96e49017.chunk.js.map",
+    "static/js/3.9562a649.chunk.js": "/Efico-Resources/Efico-React/static/js/3.9562a649.chunk.js",
+    "static/js/3.9562a649.chunk.js.map": "/Efico-Resources/Efico-React/static/js/3.9562a649.chunk.js.map",
+    "index.html": "/Efico-Resources/Efico-React/index.html",
+    "static/css/2.0cc22735.chunk.css.map": "/Efico-Resources/Efico-React/static/css/2.0cc22735.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/Efico-Resources/Efico-React/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.96e49017.chunk.js.LICENSE.txt": "/Efico-Resources/Efico-React/static/js/2.96e49017.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94e00bd5.js",
+    "static/css/2.0cc22735.chunk.css",
+    "static/js/2.96e49017.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.3727a895.chunk.js"
+  ]
+}

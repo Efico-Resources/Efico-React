@@ -1,0 +1,119 @@
+/** All styles for the service page **/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.service-wrapper{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Header{
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.48),
+    rgba(0,0,0,0.48)
+  ), url('./service-page-image/service.jpg');
+  background-position: center center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+
+.Header h1{
+    font-size: 53.41px; 
+}
+
+.Header p{
+    font-size: 27.34px;
+    line-height: 48px;
+}
+  
+.Self-Assessment h1, .Training h1, .Writing h1, .Affiliate h1, .Business h1{
+    font-size: 42.71px;
+    line-height: 48px;
+    font-weight: bolder;
+}
+
+.Self-Assessment p, .Training p, .Writing p, .Affiliate p, .Business p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+  
+.Self-Assessment h5, .Training h5, .Writing h5, .Affiliate h5, .Business h5{
+    color: black;
+    font-weight: bold;
+}
+  
+.btn{
+    background-color: #3c185b;
+    color: #fff;
+    border-radius: 20px !important;
+}
+  
+a{
+    text-decoration: none!important;
+    color: #331733;
+}
+  
+.btn:hover{
+    color: #fff;
+}
+
+/**Media query for max screen size 320 and 480px**/
+@media only screen and (max-width:320px) and (max-width:480px) {
+    .Header{
+        position: relative;
+        height: 100vh;
+      }
+
+    .Header h1{
+        font-size: 32px;
+    }
+    
+    .Header p{
+        font-size: 2.8px !important;
+        line-height: 14px !important;
+    }  
+
+    .Self-Assessment h1, .Training h1, .Writing h1, .Affiliate h1, .Business h1{
+        font-size: 32px;
+    }
+
+    .Self-Assessment h5, .Training h5, .Writing h5, .Affiliate h5, .Business h5{
+        font-size: 16.8px;
+    }
+}
+
+
+/**Media query for max screen size 768px and 1024px**/
+@media only screen and (max-width:768px) and (max-width:1024px) {
+    .Header{
+        height: 100vh;
+      }
+
+    .Header h1{
+        font-size: 32px;
+    }
+    
+    .Header p{
+        font-size: 18.8px !important;
+        line-height: 24px !important;
+    }  
+
+    .Self-Assessment h1, .Training h1, .Writing h1, .Affiliate h1, .Business h1{
+        font-size: 32px;
+    }
+
+    .Self-Assessment h5, .Training h5, .Writing h5, .Affiliate h5, .Business h5{
+        font-size: 16.8px;
+    }
+}
+
+
+
