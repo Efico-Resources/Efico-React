@@ -28,7 +28,7 @@ class WsfButtons extends Component {
                 </button>
                 <div className={`wsf-button-content ${status}`}>
                     <div className="image">
-                        <img src={`Assets/img/wsf-img-${index}.jpg`} alt="Efficient" />
+                        <img src={`Assets/img/wsf-img-${index}.jpg`} alt="Efficient image" />
                     </div>
                     <div className="description">
                         {description}
