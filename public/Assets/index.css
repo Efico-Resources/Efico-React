@@ -2,6 +2,9 @@
 @import url("About/about.css");
 @import url("Contact-us/stylesheet.css");
 @import url("Faqs/stylesheet.css");
+@import url("Services/services.css");
+@import url("Community/community.css");
+@import url("Blog/Assets/blog.css");
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -34,7 +37,7 @@ body {
 }
 
 .service {
-  background: var(--background-dim), url("img/servicePage.jpg") center center no-repeat;
+  background: var(--background-dim), url("img/servicePage.jpg") no-repeat;
 }
 
 .community {
@@ -768,6 +771,9 @@ header nav .nav-content .nav-links ul li a:hover {
 @media (max-width: 1198px) {
   .about {
     background: var(--background-dim), url("img/aboutPage-sm.jpg") center no-repeat;
+  }
+  .service {
+    background: var(--background-dim), url("img/servicePage.jpg") center center no-repeat;
   }
 }
 /*# sourceMappingURL=index.css.map */

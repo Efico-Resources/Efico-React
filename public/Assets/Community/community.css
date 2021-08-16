@@ -1,0 +1,133 @@
+/** All styles for the service page **/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Community-wrapper{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Community-header{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(0,0,0,0.48),
+      rgba(0,0,0,0.48)
+    ), url('./community-page-image/community-landing.jpg');
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.facebook-image-section {
+    background:  linear-gradient(
+        rgba(0,0,0,0.48),
+        rgba(0,0,0,0.48)
+    ), url('./community-page-image/facebook.jpg');
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.telegram-image-section {
+    background:  linear-gradient(
+        rgba(0,0,0,0.48),
+        rgba(0,0,0,0.48)
+    ), url('./community-page-image/telegram.jpg');
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.whatsapp-image-section {
+    background:  linear-gradient(
+        rgba(0,0,0,0.48),
+        rgba(0,0,0,0.48)
+    ), url('./community-page-image/whatsapp.jpg');
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #3c185b;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 5.5rem !important;
+}
+
+.Community-header h1 {
+      font-size: 53.41px;
+}
+
+.Community-header h5 {
+     font-size: 22.34px;
+     line-height: 48px;
+}
+
+.Whatsapp-section, .Telegram-section, .Facebook-section, h1 {
+    font-weight: bold;
+}
+
+.Whatsapp-section, .Telegram-section, .Facebook-section, p {
+    line-height: 38px;
+    font-size: 18px;
+}
+
+@media (min-width: 1199px){
+    .facebook-image-section, .whatsapp-image-section, .telegram-image-section{
+        height: 80vh;
+    }
+}
+
+/**Media query for max screen size 320 and 480px**/
+@media only screen and (max-width:320px) and (max-width:480px) {
+    .Community-header h1 {
+        font-size: 32px;
+    }
+  
+  .Community-header h5 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .inner-section {
+        margin-top: 2px !important;
+    }
+
+  .Whatsapp-section, .Telegram-section, .Facebook-section, p {
+        line-height: 24px;
+        font-size: 18px;
+        padding: 10px !important;
+    }
+}
+
+/**Media query for max screen size 768px and 1024px**/
+@media only screen and (max-width:768px) and (max-width:1024px) {
+    .Community-header h1 {
+        font-size: 32px;
+    }
+
+  .Community-header h5 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+  .Whatsapp-section, .Telegram-section, .Facebook-section, p {
+        line-height: 24px;
+        font-size: 18px;
+        padding: 10px !important;
+    }
+}
