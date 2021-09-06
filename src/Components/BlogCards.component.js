@@ -1,5 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
+=======
+>>>>>>> 2a455d850e6c619fa53ccb119d63f04db5c8765e
 
 function BlogCards() {
     return (
@@ -15,7 +18,11 @@ function BlogCards() {
                         <h2>What kind of learner are you? Take our online quiz to find out.</h2>
                     </div>
                     <div class="read-more-link">
+<<<<<<< HEAD
                         <Link to="/blog">Read more...</Link>
+=======
+                        <a href="google.com">Read more...</a>
+>>>>>>> 2a455d850e6c619fa53ccb119d63f04db5c8765e
                     </div>
                 </div>
             </div>

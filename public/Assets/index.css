@@ -2,9 +2,12 @@
 @import url("About/about.css");
 @import url("Contact-us/stylesheet.css");
 @import url("Faqs/stylesheet.css");
+<<<<<<< HEAD
 @import url("Services/services.css");
 @import url("Community/community.css");
 @import url("Blog/Assets/blog.css");
+=======
+>>>>>>> 2a455d850e6c619fa53ccb119d63f04db5c8765e
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -37,7 +40,11 @@ body {
 }
 
 .service {
+<<<<<<< HEAD
   background: var(--background-dim), url("img/servicePage.jpg") no-repeat;
+=======
+  background: var(--background-dim), url("img/servicePage.jpg") center center no-repeat;
+>>>>>>> 2a455d850e6c619fa53ccb119d63f04db5c8765e
 }
 
 .community {
@@ -52,11 +59,14 @@ body {
   background: var(--background-dim), url("img/faq.jpg") center center no-repeat;
 }
 
+<<<<<<< HEAD
 .coming-soon {
   background: var(--background-dim), url("img/coming-soon.jpg") center center no-repeat;
   background-size: cover;
 }
 
+=======
+>>>>>>> 2a455d850e6c619fa53ccb119d63f04db5c8765e
 header {
   background: var(--background-dim), url("img/1.jpg") center center;
   background-size: cover;
@@ -777,8 +787,11 @@ header nav .nav-content .nav-links ul li a:hover {
   .about {
     background: var(--background-dim), url("img/aboutPage-sm.jpg") center no-repeat;
   }
+<<<<<<< HEAD
   .service {
     background: var(--background-dim), url("img/servicePage.jpg") center center no-repeat;
   }
+=======
+>>>>>>> 2a455d850e6c619fa53ccb119d63f04db5c8765e
 }
 /*# sourceMappingURL=index.css.map */
