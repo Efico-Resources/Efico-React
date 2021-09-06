@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("../index.css");
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --efico-yellow: #E1DB46;
+  --efico-purple: #3C185B;
+  --background-dim: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48));
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: auto;
+  background: #F3F3F3 !important;
+}
+
+.about-text {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-text .about-text-container {
+  margin: auto;
+  padding: 7rem 4rem;
+}
+
+.we-stand-for {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.we-stand-for .section-header {
+  margin-bottom: 50px;
+}
+
+.we-stand-for .wsf-button-container {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+.we-stand-for .wsf-button-container .wsf-button {
+  margin: auto;
+  text-align: center;
+}
+
+.we-stand-for .wsf-button-container .wsf-button .wsf-button-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6rem;
+  background: white;
+  padding: 40px 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.we-stand-for .wsf-button-container .wsf-button .wsf-button-content .image img {
+  width: 13rem;
+  height: 13rem;
+}
+
+.we-stand-for .wsf-button-container .wsf-button .wsf-btn {
+  width: 202px;
+  padding: 16px 10px;
+}
+
+.we-stand-for .wsf-button-container .wsf-button .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.we-stand-for .wsf-button-container .wsf-button .none {
+  display: none;
+}
+/*# sourceMappingURL=about.css.map */
