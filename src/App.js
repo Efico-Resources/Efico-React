@@ -15,6 +15,9 @@ import Header from './Components/Header.component';
 import ScrollToTop from './Components/ScrollToTop';
 import ContactUsPage from './Pages/ContactUsPage';
 import FaqPage from './Pages/FaqPage';
+import ServicesPage from './Pages/ServicesPage';
+import CommunityPage from './Pages/CommunityPage';
+import BlogPage from './Pages/BlogPage';
 
 function App() {
   return (
@@ -36,6 +39,18 @@ function App() {
         <Route path="/faqs" exact={true}>
           <ScrollToTop />
           <FaqPage />
+        </Route>
+        <Route path="/services" exact={true}>
+          <ScrollToTop />
+          <ServicesPage />
+        </Route>
+        <Route path="/community" exact={true}>
+          <ScrollToTop />
+          <CommunityPage />
+        </Route>
+        <Route path="/blog" exact={true}>
+          <ScrollToTop />
+          <BlogPage />
         </Route>
       </Switch>
     </Router>  
