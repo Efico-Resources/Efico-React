@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const HoverCards = ({text, img, description, index}) => {
     return (
@@ -17,9 +18,9 @@ export const HoverCards = ({text, img, description, index}) => {
                             {description}                        
                         </div>
                         <div className="link-arrow">
-                            <a href="">
+                            <Link to="/services">
                             <img src="Assets/img/arrow icon training.svg" alt="Arrow icon link"/>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ class LandingPage extends Component {
         return (
             <div>
                 <Header 
-                    title = "Join the foremost educational hub in Africa"
+                    title = "Join the Largest Digital Educational Hub in Africa"
                     subtitle = "We help undergraduates discover their natural zone of competence using a personalized self-assessment test"
                     showBtn = {true}
                     image = "home"

@@ -4,7 +4,7 @@ function TeamMember({name, title, bio}) {
     return (
         <div className="team-member" id="Our-team">
             <div className="team-member-img">
-                <img src={`Assets/img/${name}.jpg`} alt={`${name} Image`} />
+                <img src={`Assets/img/${name}.jpg`} alt={`${name}`} />
             </div>
             <div className="team-member-bio">
                 <div className="name-title">

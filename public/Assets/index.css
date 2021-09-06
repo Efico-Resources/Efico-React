@@ -37,7 +37,7 @@ body {
 }
 
 .service {
-  background: var(--background-dim), url("img/servicePage.jpg") no-repeat;
+  background: var(--background-dim), url("img/servicePage.jpg") center center no-repeat;
 }
 
 .community {
@@ -50,6 +50,11 @@ body {
 
 .faqs {
   background: var(--background-dim), url("img/faq.jpg") center center no-repeat;
+}
+
+.coming-soon {
+  background: var(--background-dim), url("img/coming-soon.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 header {

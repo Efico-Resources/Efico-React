@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class FeaturedBlog extends Component {
     constructor(props) {
@@ -35,7 +36,7 @@ class FeaturedBlog extends Component {
                             Have you ever just wanted to get away from everything? From the noise? School stress? Family drama or the society? Even if it was just for a few hours, you just want a place where you can totally be at peace. Well you’re not alone, most of us have felt this at certain points in our lives. 
                         </div>
                         <div className="read-more">
-                            <a href="">Read more...</a>
+                            <Link to="/blog">Read more...</Link>
                         </div>
                     </div>
                 </div>

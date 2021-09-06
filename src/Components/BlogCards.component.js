@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function BlogCards() {
     return (
         <div class="blog-img-container">
-            <img src="Assets/img/bimg-1.png" alt="Blog Image 1" />
+            <img src="Assets/img/bimg-1.png" alt="Blog 1" />
             <div class="blog-contents">
                 <div class="blog-descriptions">
                     <div class="blog-details">
@@ -14,7 +15,7 @@ function BlogCards() {
                         <h2>What kind of learner are you? Take our online quiz to find out.</h2>
                     </div>
                     <div class="read-more-link">
-                        <a href="#">Read more...</a>
+                        <Link to="/blog">Read more...</Link>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ContactForm from './ContactForm.component'
 
 function ContactHead() {
@@ -45,7 +46,7 @@ function ContactHead() {
                     <span><a href="#"><i className="fab fa-youtube"></i></a></span>
                     <span><a href="#"><i className="fab fa-linkedin"></i></a></span>
                 </div>
-                <a href="#"><h3 className="faq">Check out most frequently asked questions on Efico!</h3></a>
+                <Link to="/faqs"><h3 className="faq">Check out most frequently asked questions on Efico!</h3></Link>
             </div>
 
             <div id="sponsor">

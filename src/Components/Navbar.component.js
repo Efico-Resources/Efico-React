@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 
 import Navlinks from './Navlinks.component';
 
@@ -52,7 +53,7 @@ class Navbar extends Component{
         return(
             <div className="nav-container" >
             <nav className={`navbar navbar-expand-sm ${this.state.scrolling}`} id="navBar" style={this.state.onScrollStyle}>
-                <a className="navbar-brand" href="#"><img className="logo" src={this.state.img} alt="Efico Logo" /></a>
+                <Link className="navbar-brand" to="/"><img className="logo" src={this.state.img} alt="Efico Logo" /></Link>
                 <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#eficoNav">
                     <span className="mobile-navbtn"><i className="fas fa-bars"></i></span>
                 </button>

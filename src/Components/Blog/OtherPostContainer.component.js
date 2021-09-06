@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class OtherPostContainer extends Component {
     constructor(props) {
@@ -31,7 +32,7 @@ class OtherPostContainer extends Component {
                                 </p>
                             </div>
                             <div class="read-more">
-                                <a href="">Read more...</a>
+                                <Link to="/blog">Read more...</Link>
                             </div>
                         </div>
                     </div>

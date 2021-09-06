@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import OurNumbersCards from './OurNumbersCards.component'
 
@@ -25,7 +26,7 @@ function OurNumbers() {
             })}
         </div>
         <div class="join">
-            <h2><a href="">Join our online community!</a></h2>
+            <h2><Link to="/services">Join our online community!</Link></h2>
         </div>
     </section>
     )

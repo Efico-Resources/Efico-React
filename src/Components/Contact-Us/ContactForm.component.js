@@ -31,10 +31,10 @@ class ContactForm extends Component {
             <div class="services-con">
                 <h4 class="ser">services</h4>
                 <div class="services">
-                    <a href="#"><button>Training</button></a>
-                    <a href="#"><button>Writing</button></a>
-                    <a href="#"><button>Affiliate</button></a>
-                    <a href="#"><button>Business & Career</button></a>
+                    <button>Training</button>
+                    <button>Writing</button>
+                    <button>Affiliate</button>
+                    <button>Business & Career</button>
                 </div>
             </div>
             <div class="msg">

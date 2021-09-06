@@ -16,7 +16,6 @@ class BlogPosts extends Component {
         <section class="blog-posts">
             <div class="outer-container">
                 <PostContainer />
-                <PostContainer />
             </div>
             <div class="section-btn">
                 <button class="pBtn">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class PostContainer extends Component {
     constructor(props) {
@@ -33,7 +34,7 @@ class PostContainer extends Component {
                                 You know what billionaires like Jeff Bezos, Elon Musk, Bill Gates, Mark Zuckerberg and the likes all have in common? It’s a little lightbulb of the mind called idea. All businesses or innovations all started from someone having an idea, but of course it doesn’t take just an idea to build a successful business, if not the world would be full of billionaires by now. Just like a sequoia seed would require other factors to grow into a big giant tree, so does ideas. Here are few practical ways on how to turn your idea into a billion dollars.
                             </div>
                             <div class="read-more">
-                                <a href="">Read more...</a>
+                                <Link to="/blog">Read more...</Link>
                             </div>
                         </div>
                     </div>

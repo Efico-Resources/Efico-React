@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class LatestBlog extends Component {
     constructor(props) {
@@ -29,7 +30,7 @@ class LatestBlog extends Component {
                         <p>In a world where more tasks are being automated, and more jobs are getting extinct, changing career paths is, more often than not, a necessity.</p> 
                         </div>
                         <div className="read-more">
-                            <a href="">Read more...</a>
+                            <Link to="/blog">Read more...</Link>
                         </div>
                     </div>
                 </div>
