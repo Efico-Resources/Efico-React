@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function TeamMember({name, title, bio, linkedin, email}) {
     return (
@@ -17,12 +16,12 @@ function TeamMember({name, title, bio, linkedin, email}) {
                 </p>
                 <div className="social-links">
                     <div className="icons">
-                        <Link to={linkedin}>
+                        <a href={linkedin} target="_blank" rel="noreferrer">
                             <img src="Assets/img/Linkedin-icon.svg" alt="Linkedin-icon" />
-                        </Link>
-                        <Link to={`mailto: ${email}`}>
+                        </a>
+                        <a href={`mailto: ${email}`} target="_blank" rel="noreferrer">
                             <img src="Assets/img/Gmail-icon.svg" alt="Gmail-icon" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>   
