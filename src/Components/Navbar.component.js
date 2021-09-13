@@ -54,7 +54,7 @@ class Navbar extends Component{
     
 
     handleScroll(){
-        window.scrollY > 50 ? this.setState({scrolling: "fixed-top", onScrollStyle: onScroll, menuColor: onScrollBars, textColor: onScroll.color, img: "./Assets/img/Efico logo 1.png"}) : this.setState({scrolling: " ", onScrollStyle: onStill, textColor: onStill.color, img: "./Assets/img/Efico logo.png"})
+        window.scrollY > 50 ? this.setState({scrolling: "fixed-top", onScrollStyle: onScroll, menuColor: onScrollBars, textColor: onScroll.color, img: "./Assets/img/Efico logo 1.png"}) : this.setState({scrolling: " ", onScrollStyle: onStill, menuColor: onStillBars, textColor: onStill.color, img: "./Assets/img/Efico logo.png"})
         // console.log(scroll);
 
     }
@@ -64,7 +64,7 @@ class Navbar extends Component{
             <nav className={`navbar navbar-expand-sm ${this.state.scrolling}`} id="navBar" style={this.state.onScrollStyle}>
                 <Link className="navbar-brand" to="/"><img className="logo" src={this.state.img} alt="Efico Logo" /></Link>
                 <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#eficoNav">
-                    <span className="mobile-navbtn" style={this.state.menuColor}><i className="fas fa-bars"></i></span>
+                    <span className="mobile-navbtn"><i className="fas fa-bars" style={this.state.menuColor}></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="eficoNav">
                     <ul className="navbar-nav ml-auto">
