@@ -5,6 +5,7 @@
 @import url("Services/services.css");
 @import url("Community/community.css");
 @import url("Blog/Assets/blog.css");
+
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -34,7 +35,7 @@ body{
 }
 
 .service{
-    background: var(--background-dim), url('img/servicePage.jpg') no-repeat;
+    background: var(--background-dim), url('img/servicePage.jpg') center center no-repeat;
 }
 
 .community{
@@ -48,6 +49,12 @@ body{
 .faqs{
     background: var(--background-dim), url('img/faq.jpg') center center no-repeat;
 }
+
+.coming-soon{
+    background: var(--background-dim), url('img/coming-soon.jpg') center center no-repeat;
+    background-size: cover;
+}
+
 
 header{
     background: var(--background-dim), url('img/1.jpg') center center;
@@ -536,6 +543,7 @@ header{
     .about{
     background: var(--background-dim), url('img/aboutPage-sm.jpg') center no-repeat;
     }
+
     .service {
         background: var(--background-dim), url("img/servicePage.jpg") center center no-repeat;
     }

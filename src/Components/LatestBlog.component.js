@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function LatestBlog() {
     return (
         <div class="latest-blog">
                 <div class="lbImg">
-                    <img src="Assets/img/lbImg-1.png" alt="Latest Blog Image" />
+                    <img src="Assets/img/lbImg-1.png" alt="Latest Blog" />
                 </div>
                 <div class="lbContents">
                     <div class="blog-details">
@@ -18,7 +19,7 @@ function LatestBlog() {
                         In a world where more tasks are being automated, and more jobs are getting extinct, changing career paths is, more often than not, a necessity.
                     </div>
                     <div class="read-more-link">
-                        <a href="#">Read more...</a>
+                        <Link to="/blog">Read more...</Link>
                     </div>
                 </div>
         </div>

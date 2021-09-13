@@ -16,5 +16,5 @@ git pull origin develop
 
 ```
 npm install
-npm start
+yarn start
 ```

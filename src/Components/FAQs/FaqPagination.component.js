@@ -10,7 +10,7 @@ class FaqPagination extends Component {
     }
 
     render() {
-        const {questions, answers, index} = this.props
+        const {questions, answers} = this.props
         console.log(questions, answers);
         return (
             <div>

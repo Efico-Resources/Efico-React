@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import FaqPagination from './FaqPagination.component'
 
 let facts = [
@@ -43,7 +44,7 @@ class FaqContainer extends Component {
         let currentFacts = []
         let searchLength = ""
         let searchResult = 0
-        if (userInput == "" || userInput == " "){
+        if (userInput === "" || userInput === " "){
             currentFacts = facts.filter((fact) => {
                 return fact.index >= minNum && fact.index <= maxNum
             })
@@ -65,7 +66,7 @@ class FaqContainer extends Component {
             {   searchResult ? 
                 <div class="container-fluid child">
     		<h5 id="searchLength"> {`Found ${searchLength} results`}</h5>
-    		<h3 id="searchResult"></h3>
+    		{/* <h3 id="searchResult"></h3> */}
     	    </div> : null}
             {
                 currentFacts.map((cFact) => {
@@ -74,17 +75,17 @@ class FaqContainer extends Component {
             }
     	<div class="btn-div" style={{paddingBottom: 4 + "em"}}>
         <div className="btn-container">
-            <button className="faqBtn" onClick={this.handlePagination}><a>Next page</a></button>
+            <button className="faqBtn" onClick={this.handlePagination}>Next page</button>
         </div>
         <div id="NP">
         <ul class="page">
-            <li class="active"><a href="#top">1</a></li>
-            <li><a href="#">2</a></li>
+            <li class="active">1</li>
+            <li>2</li>
         </ul>
         </div>
         <h3 class="endhead" >Have more questions?</h3>
         <div className="lastbtn-container">
-        <button class="lastbtn faqBtn"><a href="#">Chat us up</a></button>
+        <button class="lastbtn faqBtn"><Link to="/contact-us">Chat us up</Link></button>
 
         </div>
             </div>

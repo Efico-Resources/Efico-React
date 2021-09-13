@@ -24,7 +24,7 @@ class Header extends Component{
                     {
                         showSearch && 
                         <div className="search-btn">
-                        <a href=""><span className="fas fa-search "></span></a>
+                        <span className="fas fa-search "></span>
                         <input id="search" onChange={onKeywordChanged} type="text" name="search" placeholder="Search keywords to find answers" />
                         </div>
                     }
