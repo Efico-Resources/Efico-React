@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function TeamMember({name, title, bio}) {
+function TeamMember({name, title, bio, linkedin, email}) {
     return (
         <div className="team-member" id="Our-team">
             <div className="team-member-img">
@@ -16,12 +17,12 @@ function TeamMember({name, title, bio}) {
                 </p>
                 <div className="social-links">
                     <div className="icons">
-                        <a href="">
+                        <Link to={linkedin}>
                             <img src="Assets/img/Linkedin-icon.svg" alt="Linkedin-icon" />
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to={`mailto: ${email}`}>
                             <img src="Assets/img/Gmail-icon.svg" alt="Gmail-icon" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>   
