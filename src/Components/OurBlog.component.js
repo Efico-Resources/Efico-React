@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react'
 
 import LatestBlog from './LatestBlog.component'
 import BlogCards from './BlogCards.component'
+import { Link } from 'react-router-dom'
 
 class OurBlog extends PureComponent {
     constructor(props) {
@@ -30,9 +31,9 @@ class OurBlog extends PureComponent {
             </div>
         </div>
         <div class="sm-blog-btn">
-            <button class="pBtn" id="block-btn">
+            <Link to="/blog" class="pBtn" id="block-btn">
                 Visit Blog
-            </button>
+            </Link>
         </div>  
     </div>
     </section>
