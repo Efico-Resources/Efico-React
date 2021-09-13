@@ -38,13 +38,13 @@ function ContactHead() {
                 </div>
                 <h3>Social Media Platforms</h3>
                 <div className="sm">
-                    <span><a href="#"><i className="fab fa-facebook-square"></i></a></span>
-                    <span><a href="#"><i className="fab fa-instagram"></i></a></span>
-                    <span><a href="#"><i className="fab fa-tiktok"></i></a></span>
-                    <span><a href="#"><i className="fas fa-podcast"></i></a></span>
-                    <span><a href="#"><i className="fab fa-twitter"></i></a></span>
-                    <span><a href="#"><i className="fab fa-youtube"></i></a></span>
-                    <span><a href="#"><i className="fab fa-linkedin"></i></a></span>
+                <span><Link to="https://www.facebook.com/resources.efico"><i class="fab fa-facebook-square"></i></Link></span>
+                <span><Link to="https://www.instagram.com/p/CSxVJtojf5c/?utm_medium=copy_link"><i class="fab fa-instagram"></i></Link></span>
+                <span><Link to="https://vm.tiktok.com/ZMRHv2mFq/"><i class="fab fa-tiktok"></i></Link></span>
+                <span><Link to="https://anchor.fm/eficoradio/episodes"><i class="fas fa-podcast"></i></Link></span>
+                <span><Link to="https://twitter.com/EficoResources"><i class="fab fa-twitter"></i></Link></span>
+                <span><Link to="https://youtube.com/channel/UC4BCMxcqIsr_ZBBafiAWV4g"><i class="fab fa-youtube"></i></Link></span>
+                <span><Link to="https://www.linkedin.com/company/efico-resources"><i class="fab fa-linkedin"></i></Link></span>
                 </div>
                 <Link to="/faqs"><h3 className="faq">Check out most frequently asked questions on Efico!</h3></Link>
             </div>
