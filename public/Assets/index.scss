@@ -270,7 +270,7 @@ header{
             margin: auto;
             position: relative;
             width: 85%;
-            height: 750px;
+            height: 450px;
             border-radius: 10px;
             box-shadow: 3px 5px 5px rgb(170, 170, 170);
             .lbImg{
@@ -502,6 +502,7 @@ header{
         .blog-cards{
             .latest-blog{
                 width: 50%;
+                height: 750px;
             }      
         }
     }

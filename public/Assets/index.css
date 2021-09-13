@@ -362,7 +362,7 @@ header nav .nav-content .nav-links ul li a:hover {
   margin: auto;
   position: relative;
   width: 85%;
-  height: 750px;
+  height: 450px;
   border-radius: 10px;
   -webkit-box-shadow: 3px 5px 5px #aaaaaa;
           box-shadow: 3px 5px 5px #aaaaaa;
@@ -731,6 +731,7 @@ header nav .nav-content .nav-links ul li a:hover {
   }
   .our-blog .blog-cards .latest-blog {
     width: 50%;
+    height: 750px;
   }
   .yBtn {
     padding: 16px 100px;
