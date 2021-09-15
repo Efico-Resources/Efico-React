@@ -16,10 +16,10 @@ class Header extends Component{
                         {subtitle}
                     </div>
                     { showBtn &&
-                        <div className="header-button">
-                        <button className="yBtn">
+                        <div className="header-button" style={{marginTop: 80 + "px"}}>
+                        <a href="http://eepurl.com/g1dJmP" target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "black"}} className="yBtn">
                             Get Started
-                        </button>
+                        </a>
                     </div>}
                     {
                         showSearch && 

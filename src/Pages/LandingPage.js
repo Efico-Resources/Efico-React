@@ -11,7 +11,7 @@ import OurTeam from '../Components/OurTeam.component';
 import Footer from '../Components/Footer.component';
 
 let teamMemberArray = [
-    {name: "David Adefunmilayo", title: "Founder & Director", bio: "David Adefunmilayo is a graduate of Petroleum Training Institute and also a graduate of university of Lagos. He has accumulated a two-year experience with the department of petroleum resources where he was saddled with the responsibility of advising oil and gascompanies for the government. He is a lover of Rhythm And Poetry and he engages in it at his leisure.", linkedin: "http://linkedin.com/in/adefunmilayo-david", email: "David.Adefunmilayo@eficoresource.com"},
+    {name: "David Adefunmilayo", title: "Founder & Director", bio: "David Adefunmilayo is a graduate of Petroleum Training Institute and also a graduate of university of Lagos. He has accumulated a two-year experience with the Department of Petroleum Resources where he was saddled with the responsibility of advising oil and gas companies for the government. He is a lover of Rhythm And Poetry and he engages in it at his leisure.", linkedin: "http://linkedin.com/in/adefunmilayo-david", email: "David.Adefunmilayo@eficoresource.com"},
     {name: "Funmilayo Oyekanmi", title: "Operations Consultant", bio: "Funmilayo is a career consultant passionate about helping youths unleash their potential. She is also a management consultant with years of experience spanning across sales, operations and research. She enjoys giving back to her society by volunteering in the areas of her strength.", linkedin: "https://www.linkedin.com/in/layooye/", email: "angeloyekanmi@gmail.com"}
 ]
 
