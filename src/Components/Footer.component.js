@@ -18,7 +18,7 @@ function Footer() {
                 <h5 class="co1" style={{paddingBottom: 0.5 + 'em'}}>Contact</h5>
                 <span><i class="fas fa-map-marker-alt" style={{marginRight: 1 + 'em'}}></i><span>Ladipo, Lagos</span></span><br /><br />
                 <span><i class="fas fa-phone" style={{marginRight: 1 + 'em'}}></i><span>+234 905 407 8392</span></span><br /><br />
-                <span><i class="far fa-envelope" style={{marginRight: 1 + 'em'}}></i><span>David.Adefunmilyo@<br />eficoresources.com</span></span><br />
+                <span><i class="far fa-envelope" style={{marginRight: 1 + 'em'}}></i><span><a href="mailto: david.adefunmilayo@eficoresource.com" style={{textDecoration: "none", color: "white"}}>David.Adefunmilyo@eficoresource.com</a></span></span><br />
             </div>
             <div class="col2" style={{paddingBottom: 2 + 'em'}}>
                 <h5 class="co2">Efico</h5>
