@@ -37,7 +37,7 @@ class WhatWeDo extends Component{
         <section className="what-we-do">
             <h2 className="section-title">What We Do</h2>
             <div className="what-we-do-content">
-                We build a community of undergraduates who have undergone self-analysis and understand their place in value creation and help them with the resources on a long term basis. We also provide other services that include 
+            We build a community of undergraduates and high school students who have undergone self-analyses and understood their role in solving societal problems. 
             </div>
             <div className="hover-cards">
                 {this.state.cards}
