@@ -24,9 +24,9 @@ class OurBlog extends PureComponent {
                 <BlogCards />
                 <BlogCards />
                 <div class="blog-btn">
-                    <button class="pBtn">
+                    <Link to="/blog" class="pBtn" id="block-btn">
                         Visit Blog
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
