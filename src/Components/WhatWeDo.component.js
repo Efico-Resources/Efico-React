@@ -5,7 +5,7 @@ import AOS from "aos";
 
 
 let hoverCardsdets = 
-[{text: "Training", img: "cImg-1", description: "Physical and virtual training are organization by our campus ambassadors and others from the central management.", index: 1},
+[{text: "Training", img: "cImg-1", description: "Physical and virtual training are organized by our campus ambassadors and monitored from the central management.", index: 1},
 {text: "Writing", img: "cImg-2", description: "We offer all forms of writting services- CV, applications, scholarship and business plan writting.", index: 2},
 {text: "Affiliate Programs", img: "cImg-3", description: "We leverage our vast community of university and secondary school students organizations to reach a large audience base through a commission or sponsorship of any of our event.", index: 3},
 {text: "Business & Career Development", img: "cImg-4", description: "we help develop and facilitate business/career training sessions.", index: 4}]
