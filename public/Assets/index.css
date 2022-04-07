@@ -239,6 +239,7 @@ header nav .nav-content .nav-links ul li a:hover {
 }
 
 .what-we-do .hover-cards .wwd-card .card-text-container {
+  z-index: 2;
   max-width: 100%;
   width: 100%;
   max-height: 100%;
@@ -253,8 +254,6 @@ header nav .nav-content .nav-links ul li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
@@ -271,7 +270,7 @@ header nav .nav-content .nav-links ul li a:hover {
 }
 
 .what-we-do .hover-cards .wwd-card .hovering {
-  z-index: -1;
+  z-index: 1;
   position: absolute;
   max-width: 100%;
   width: 100%;
@@ -293,6 +292,9 @@ header nav .nav-content .nav-links ul li a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 16px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  pointer-events: none;
 }
 
 .what-we-do .hover-cards .wwd-card .hovering .hover-title {
@@ -319,6 +321,10 @@ header nav .nav-content .nav-links ul li a:hover {
           animation-duration: 0.6s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+
+.what-we-do .hover-cards .wwd-card .hovering:hover {
+  opacity: 1;
 }
 
 .what-we-do .hover-cards .cImg-1 {
