@@ -13,25 +13,25 @@ class OtherPostContainer extends Component {
     render() {
         return (
             <div>
-                <div class="ol-post-container">
-                        <div class="img">
+                <div className="ol-post-container">
+                        <div className="img">
                             <img src="../Assets/img/ol image 1.jpg" alt="" />
                         </div>
-                        <div class="ol-post-description">
-                            <div class="post-title">
+                        <div className="ol-post-description">
+                            <div className="post-title">
                                 <h3>
                                     The Complete guide to acing interviews!
                                 </h3> 
                             </div>
-                            <div class="post-details">
-                                <p class="date">
+                            <div className="post-details">
+                                <p className="date">
                                     May 22, 2021
                                 </p>
-                                <p class="read-time">
+                                <p className="read-time">
                                     20 Mins
                                 </p>
                             </div>
-                            <div class="read-more">
+                            <div className="read-more">
                                 <Link to="/blog">Read more...</Link>
                             </div>
                         </div>

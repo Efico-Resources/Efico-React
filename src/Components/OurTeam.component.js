@@ -9,12 +9,12 @@ import TeamMember from './TeamMember.component'
 
 function OurTeam({targetRef, team}) {
     return (
-        <section class="our-team">
-            <h2 class="section-title">Our Team</h2>
-            <div class="section-caption">
+        <section className="our-team">
+            <h2 className="section-title">Our Team</h2>
+            <div className="section-caption">
                 Meet the Efico Resources Team
             </div>
-            <div class="our-team-content">
+            <div className="our-team-content">
                 {team.map((member, key) => {
                     return(
                         <TeamMember {...member} key= {key} />

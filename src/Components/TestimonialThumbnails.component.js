@@ -2,17 +2,17 @@ import React from 'react'
 
 function TestimonialThumbnails({name, testimonial, school}) {
     return (
-        <div class="testimonial-thumbnails">
-            <div class="testimonial-img">
+        <div className="testimonial-thumbnails">
+            <div className="testimonial-img">
                 <img src={`Assets/img/${name}.jpg`} alt={name} />
             </div>
-            <div class="testimonial-content">
-                <div class="testimonial-words">
+            <div className="testimonial-content">
+                <div className="testimonial-words">
                     {testimonial}
                 </div>
-                <div class="testimonial-credentials">
-                    <h2 class="name">{name}</h2>
-                    <p class="school">{school}</p>
+                <div className="testimonial-credentials">
+                    <h2 className="name">{name}</h2>
+                    <p className="school">{school}</p>
                 </div>
             </div>
         </div>
