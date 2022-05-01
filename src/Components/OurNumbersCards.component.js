@@ -2,18 +2,18 @@ import React from 'react'
 
 function OurNumbersCards({index, number, title, description}) {
     return (
-        <div class="our-numbers-card">
-            <div class="card-contents">
-                <div class="card-icon">
+        <div className="our-numbers-card">
+            <div className="card-contents">
+                <div className="card-icon">
                     <img src={`Assets/img/ON-${index}.svg`} alt="Students Icon" />
                 </div>
-                <div class="card-number">
+                <div className="card-number">
                     <h3>{number}</h3>
                 </div>
-                <div class="card-title">
+                <div className="card-title">
                     <h2>{title}</h2>
                 </div>
-                <div class="card-description">
+                <div className="card-description">
                     {description}
                 </div>
             </div>

@@ -12,27 +12,27 @@ class Subscribe extends Component {
     render() {
         return (
         <div>
-        <section class="subscribe">
-            <div class="section-header">
+        <section className="subscribe">
+            <div className="section-header">
                 <h2>Subscribe to our channels</h2>
             </div>
-            <div class="subscribe-container">
-                <div class="podcast">
-                    <div class="img">
+            <div className="subscribe-container">
+                <div className="podcast">
+                    <div className="img">
                         <img src="../Assets/img/podcast image.jpg" alt="podcast" />
                     </div>
-                    <div class="subscribe-btn">
-                        <button class="pBtn">
+                    <div className="subscribe-btn">
+                        <button className="pBtn">
                             Subscribe
                         </button>
                     </div>
                 </div>
-                <div class="youTube">
-                    <div class="img">
+                <div className="youTube">
+                    <div className="img">
                         <img src="../Assets/img/youtube image.jpg" alt="YouTube" />
                     </div>
-                    <div class="subscribe-btn">
-                        <button class="pBtn">
+                    <div className="subscribe-btn">
+                        <button className="pBtn">
                             Subscribe
                         </button>
                     </div>

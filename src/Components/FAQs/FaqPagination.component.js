@@ -14,11 +14,11 @@ class FaqPagination extends Component {
         console.log(questions, answers);
         return (
             <div>
-            <div class="container-fluid child">
-                <h3 class="questions">
+            <div className="container-fluid child">
+                <h3 className="questions">
                     {questions}
                 </h3>
-                <p id="ans" class="answers">{answers}</p>
+                <p id="ans" className="answers">{answers}</p>
     	    </div>
             </div>
         )

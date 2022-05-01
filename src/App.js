@@ -1,15 +1,11 @@
 
 import './App.css';
 
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
+// import your route components too
 
 //Pages
-import LandingPage from './Pages/LandingPage';
+import LandingPage from './Pages/LandingPage'; 
 import AboutPage from './Pages/AboutPage';
 import Header from './Components/Header.component';
 import ScrollToTop from './Components/ScrollToTop';
@@ -22,38 +18,29 @@ import BlogPage from './Pages/BlogPage';
 function App() {
   return (
     <div className="App">
-    <Router>
-      <Switch>
-        <Route path="/" exact={true} component={Header}>
-        <ScrollToTop />
-          <LandingPage />
+    <BrowserRouter>
+    <Header />
+
+      <Routes>
+        
+        <Route path="/" element={<LandingPage />}>
         </Route>
-        <Route path="/about" exact={true}>
-          <ScrollToTop />
-          <AboutPage />
+        <Route path="/about" element={<AboutPage />}>
         </Route>
-        <Route path="/contact-us" exact={true}>
-          <ScrollToTop />
-          <ContactUsPage />
+        <Route path="/contact-us"element={<ContactUsPage />}>
         </Route>
-        <Route path="/faqs" exact={true}>
-          <ScrollToTop />
-          <FaqPage />
+        <Route path="/faqs" element={<FaqPage />}>
         </Route>
-        <Route path="/services" exact={true}>
-          <ScrollToTop />
-          <ServicesPage />
+        <Route path="/services" element={<ServicesPage />}>
         </Route>
-        <Route path="/community" exact={true}>
-          <ScrollToTop />
-          <CommunityPage />
+        <Route path="/community" element={<CommunityPage />}>
         </Route>
-        <Route path="/blog" exact={true}>
-          <ScrollToTop />
-          <BlogPage />
+        <Route path="/blog" element={<BlogPage />}>
         </Route>
-      </Switch>
-    </Router>  
+
+      </Routes>
+      <ScrollToTop />
+    </BrowserRouter>  
     </div>
   );
 }
