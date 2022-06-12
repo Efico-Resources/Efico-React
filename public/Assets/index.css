@@ -57,8 +57,12 @@ body {
   background-size: cover;
 }
 
+.project {
+  background: var(--background-dim), url("img/project.jpg") center center no-repeat;
+}
+
 header {
-  background: var(--background-dim), url("img/1.jpg") center center;
+  background: var(--background-dim), url("img/project.jpg") center center;
   background-size: cover;
   max-width: 100%;
   width: 100%;
@@ -105,6 +109,10 @@ header nav .nav-content .nav-links ul li a {
 
 header nav .nav-content .nav-links ul li a:hover {
   color: #E1DB46;
+}
+
+header nav .nav-content .nav-links ul li a:active {
+  color: #E1DB46 !important;
 }
 
 .header-contents {

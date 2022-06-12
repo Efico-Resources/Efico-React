@@ -15,7 +15,7 @@ let teamMemberArray = [
     {name: "Funmilayo Oyekanmi", title: "Operations Consultant", bio: "Funmilayo is a career consultant passionate about helping youths unleash their potential. She is also a management consultant with years of experience spanning across sales, operations and research. She enjoys giving back to her society by volunteering in the areas of her strength.", linkedin: "https://www.linkedin.com/in/layooye/", email: "angeloyekanmi@gmail.com"}
 ]
 
-class LandingPage extends Component {
+class LandingPage extends Component { 
     render() {
         return (
             <div>

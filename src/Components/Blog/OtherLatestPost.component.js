@@ -13,11 +13,11 @@ class OtherLatestPost extends Component {
     render() {
         return (
         <div>
-            <div class="section-title">
+            <div className="section-title">
                 Latest Posts
             </div>
-            <section class="other-latest-posts">
-                <div class="other-latest-posts-container">
+            <section className="other-latest-posts">
+                <div className="other-latest-posts-container">
                     <OtherPostContainer />
                 </div>
             </section>

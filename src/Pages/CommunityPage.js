@@ -12,7 +12,7 @@ function CommunityPage() {
                 security."
                 image="community"
             />
-            <CommunityWrapper />
+            <CommunityWrapper /> 
             <Footer />
         </div>
     )

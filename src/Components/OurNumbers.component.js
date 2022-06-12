@@ -13,19 +13,19 @@ let ourNumbersCardsArray = [
 
 function OurNumbers() {
     return (
-        <section class="our-numbers">
-        <h2 class="section-title">Our Numbers</h2>
-        <div class="our-numbers-content">
+        <section className="our-numbers">
+        <h2 className="section-title">Our Numbers</h2>
+        <div className="our-numbers-content">
             This is our impact from 2019 till date:
         </div>
-        <div class="our-numbers-container">
+        <div className="our-numbers-container">
             {ourNumbersCardsArray.map((numberItem) => {
                 return(
                     <OurNumbersCards {...numberItem} key={numberItem.index}/>
                 )
             })}
         </div>
-        <div class="join">
+        <div className="join">
             <h2><Link to="/services">Join our online community!</Link></h2>
         </div>
     </section>

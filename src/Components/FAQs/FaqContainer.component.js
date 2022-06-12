@@ -57,14 +57,14 @@ class FaqContainer extends Component {
             searchResult = true
         }
         
-        console.log(currentFacts, userInput);
+        // console.log(currentFacts, userInput);
         return (
             <div>
-                <div class="container-fluid" style={{backgroundColor: "#f3f3f3"}}>
-    	<h1 class="queshead">These are some of the most frequently asked questions about Efico</h1>
+                <div className="container-fluid" style={{backgroundColor: "#f3f3f3"}}>
+    	<h1 className="queshead">These are some of the most frequently asked questions about Efico</h1>
 
             {   searchResult ? 
-                <div class="container-fluid child">
+                <div className="container-fluid child">
     		<h5 id="searchLength"> {`Found ${searchLength} results`}</h5>
     		{/* <h3 id="searchResult"></h3> */}
     	    </div> : null}
@@ -73,19 +73,19 @@ class FaqContainer extends Component {
                     return <FaqPagination answers={cFact.answers} questions={cFact.questions} key={cFact.index} />
                 })
             }
-    	<div class="btn-div" style={{paddingBottom: 4 + "em"}}>
+    	<div className="btn-div" style={{paddingBottom: 4 + "em"}}>
         <div className="btn-container">
             <button className="faqBtn" onClick={this.handlePagination}>Next page</button>
         </div>
         <div id="NP">
-        <ul class="page">
-            <li class="active">1</li>
+        <ul className="page">
+            <li className="active">1</li>
             <li>2</li>
         </ul>
         </div>
-        <h3 class="endhead" >Have more questions?</h3>
+        <h3 className="endhead" >Have more questions?</h3>
         <div className="lastbtn-container">
-        <button class="lastbtn faqBtn"><Link to="/contact-us">Chat us up</Link></button>
+        <button className="lastbtn faqBtn"><Link to="/contact-us">Chat us up</Link></button>
 
         </div>
             </div>

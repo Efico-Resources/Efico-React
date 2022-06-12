@@ -13,28 +13,28 @@ class BlogPosts extends Component {
     render() {
         return (
         <div>
-        <section class="blog-posts">
-            <div class="outer-container">
+        <section className="blog-posts">
+            <div className="outer-container">
                 <PostContainer />
             </div>
-            <div class="section-btn">
-                <button class="pBtn">
+            <div className="section-btn">
+                <button className="pBtn">
                     Next Page
                 </button>
-                <div class="pagination-btns">
-                    <button class="pagBtns">
+                <div className="pagination-btns">
+                    <button className="pagBtns">
                         1
                     </button>
-                    <button class="pagBtns">
+                    <button className="pagBtns">
                         2
                     </button>
-                    <button class="pagBtns">
+                    <button className="pagBtns">
                         3
                     </button>
-                    <button class="pagBtns">
+                    <button className="pagBtns">
                         4
                     </button>
-                    <button class="pagBtns">
+                    <button className="pagBtns">
                         5
                     </button>
                 </div>
