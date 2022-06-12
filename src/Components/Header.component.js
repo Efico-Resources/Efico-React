@@ -11,7 +11,7 @@ class Header extends Component{
                 <div className="header-contents" >
                     <div className="header-title">
                         <h1>{title}</h1>
-                    </div>
+                    </div> 
                     <div className="header-caption">
                         {subtitle}
                     </div>

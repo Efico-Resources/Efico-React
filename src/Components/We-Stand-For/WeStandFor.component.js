@@ -21,21 +21,21 @@ class WeStandFor extends Component {
     render() {
         return (
             <div>
-            <section class="about-text">
-                <div class="about-text-container">
-                    <div class="about-header">
+            <section className="about-text">
+                <div className="about-text-container">
+                    <div className="about-header">
                         <h2>About Us</h2>
                     </div>
-                    <div class="about-content">
+                    <div className="about-content">
                         Efico was founded in 2019, in response to the suicide saga that happened in 2018 in the university of Lagos,Nigeria. From hindsight, it was largely attributed to the confusion that permeated the Nigerian Educational system and the wide discrepancy between the industry and the academia. In Efico, we believe that the first step to career sucess is the realization of self, hence, we use a personalized self-assessment test to help students know themselves and then channel skills in the direction of their innate abilities. This helps them find their unique place in value creation, liberating economic prosperity in the long haul.
                     </div>
                 </div>  
             </section>
-            <section class="we-stand-for">
-        <div class="section-header">
+            <section className="we-stand-for">
+        <div className="section-header">
             <h2>We Stand For</h2>
         </div>
-        <div class="wsf-button-container">
+        <div className="wsf-button-container">
 
         {   BtnDetails.map((deets) => {
             return(

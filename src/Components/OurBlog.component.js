@@ -15,23 +15,23 @@ class OurBlog extends PureComponent {
 
     render() {
         return (
-            <section class="our-blog">
-        <h2 class="section-title">Our Blog</h2>
-        <div class="blog">
-        <div class="blog-cards">
+            <section className="our-blog">
+        <h2 className="section-title">Our Blog</h2>
+        <div className="blog">
+        <div className="blog-cards">
             <LatestBlog />
-            <div class="blog-cards-lg" id="blog-block">
+            <div className="blog-cards-lg" id="blog-block">
                 <BlogCards />
                 <BlogCards />
-                <div class="blog-btn">
-                    <Link to="/blog" class="pBtn" id="block-btn">
+                <div className="blog-btn">
+                    <Link to="/blog" className="pBtn" id="block-btn">
                         Visit Blog
                     </Link>
                 </div>
             </div>
         </div>
-        <div class="sm-blog-btn">
-            <Link to="/blog" class="pBtn" id="block-btn">
+        <div className="sm-blog-btn">
+            <Link to="/blog" className="pBtn" id="block-btn">
                 Visit Blog
             </Link>
         </div>  

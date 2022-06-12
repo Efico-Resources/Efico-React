@@ -23,9 +23,9 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Testimonial() {
     return (
-        <section class="testimonials">
-        <h2 class="section-title">Testimonials</h2>
-        <div class="section-caption">
+        <section className="testimonials">
+        <h2 className="section-title">Testimonials</h2>
+        <div className="section-caption">
             What people are saying about us
         </div>
         <Swiper
@@ -33,9 +33,9 @@ function Testimonial() {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            // scrollbar={{ draggable: true }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            scrollbar={{ draggable: true }}
+            // onSlideChange={() => console.log('slide change')}
+            // onSwiper={(swiper) => console.log(swiper)}
         >
             {testimonialArray.map((testimony, index) => {
                 return(

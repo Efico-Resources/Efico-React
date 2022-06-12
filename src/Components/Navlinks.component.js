@@ -10,7 +10,7 @@ let liStyle= {
 function Navlinks({linkName, link, color}) {
     return (
         <li className="nav-item" style={liStyle}>
-            <Link to={link} className="nav-link" style={{color}}>{linkName}</Link>
+            <Link to={link} className="nav-link" activeClassName='active' style={{color}}>{linkName}</Link> 
         </li>
     )
 }
