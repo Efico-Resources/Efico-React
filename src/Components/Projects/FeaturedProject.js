@@ -23,7 +23,7 @@ class FeauturedProject extends Component {
                     "
           subsubtitle=" We are Efico, we are the change we want to see in Africa. "
           showSearch={false}
-          image="project"
+          image="fproject"
         />
 
         {/* CARDS SECTION */}
