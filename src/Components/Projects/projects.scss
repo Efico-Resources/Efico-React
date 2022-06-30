@@ -5,10 +5,16 @@
     position: relative;
     overflow: hidden;
 }
+.about-txt {
+    padding: 6%;
+}
 .projects-landing-blog {
     margin: 0 5rem;
     justify-content: center;
     align-items: center;
+    @media (max-width: 767px){
+        margin: 0 2rem;
+        }
 }
 .first-section {
     height: 50vh;
@@ -87,7 +93,7 @@
           margin: 1rem 0 2rem 0;
 
           @media (max-width: 767px){
-            margin: 1rem 0 ;
+            margin: .5rem 0 ;
           }
       }
 
@@ -112,6 +118,10 @@
     margin-left: 2rem;
     margin-top: 1rem;
 
+    a {
+        color: white;
+    }
+
     @media (max-width: 767px){
         width: 100%;
         text-align: center;
@@ -134,6 +144,7 @@
 .feut-flex {
     display: flex;
     gap: 5%;
+    margin-bottom: 2%;
     color: rgb(60, 24, 91);
 }
 .featured-first-section {
@@ -149,6 +160,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    @media (max-width: 767px){
+        margin: 0rem 2rem 4rem 2rem;
+      }
 }
 .feautured-outer {
     position: absolute;
@@ -251,12 +265,7 @@
 .cross-container {
     text-align: start;
     margin-left: 5%;
-    h2 {
-        color: rgb(60, 24, 91);
-        font-weight: bolder;
-
-        
-    }
+    
     h5 {
         font-weight: bolder;
         margin-top: 1rem;
@@ -532,6 +541,10 @@
         color: goldenrod;
         margin-right: 4%;
     }
+    p {
+        padding: 0;
+        margin: 0;
+    }
 }
 .faq-sct {
     flex: 1;
@@ -541,7 +554,7 @@
     padding: 2%;
 }
 .acc-body {
-    background: #f0e2f0;
+    // background: #f0e2f0;
     text-align: start;
 }
 .acc-title {

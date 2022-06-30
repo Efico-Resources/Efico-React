@@ -61,6 +61,10 @@ body {
   background: var(--background-dim), url("img/project.jpg") center center no-repeat;
 }
 
+.fproject {
+  background: var(--background-dim), url("img/ftproject.jpg") center center no-repeat;
+}
+
 header {
   background: var(--background-dim), url("img/project.jpg") center center;
   background-size: cover;
