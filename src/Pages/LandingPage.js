@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCubesStacked } from '@fortawesome/free-solid-svg-icons'
 
 import Header from '../Components/Header.component';
 import OurBlog from '../Components/OurBlog.component';
@@ -20,12 +21,34 @@ class LandingPage extends Component {
         return (
             <div>
                 <Header 
-                    title = "Join the Largest Digital Educational Hub in Africa"
-                    subtitle = "We help undergraduates discover their natural zone of competence using a personalized self-assessment test"
+                    title = "Become part of of Africa's leading sustainability education/advisory hub"
+                    subtitle = "First, discover your strength and natural zone of competence using a personalized self Assessment test."
                     showBtn = {true}
                     image = "home"
                 />
                 <WhatWeDo />
+
+                <div>
+                    <div>
+                        <h2 className="section-title"> Our Projects </h2>
+                    </div>
+                    <div className='featured-landing-blog' style={{marginTop: '2%'}}>
+        <div className="feut-flex" style={{color: 'black'}}>
+          <div style={{fontSize: 'larger'}}><FontAwesomeIcon icon={faCubesStacked} /></div>
+          <h2>Save The Climate PROJECT</h2>
+          </div>
+            <div className="featured-first-section">
+        <div className="feautured-outer">
+          <div className="first-details">
+            <h1>AFRICA IS HEATING UP, WHAT ARE YOU DOING ABOUT IT?</h1>
+            <Link to='/viewproject'>  View project  </Link>
+            
+          </div>
+        </div>
+      </div>
+        </div>
+                </div>
+              
                 <OurBlog />
                 <OurNumbers />
                 <Testimonial />
