@@ -22,6 +22,7 @@ class ProjectPage extends Component {
                     "
           subsubtitle="We are Efico, we are the change we want to see in Africa."
           showSearch={false}
+          showBtn = {true}
           image="project"
         />
         <section className="about-txt">
@@ -116,6 +117,25 @@ class ProjectPage extends Component {
                 onto action.
               </p>
 
+              <div className="vol-btn" style={{margin: '0'}}>
+                <a
+                  href="https://ix3utmky3iq.typeform.com/to/a8OnrbCm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Become a volunteer
+                </a>
+              </div>
+            </div>
+            <div className="volunteer-flex">
+                <div className="volunteer-flex1">
+                    <h3>Join Efico to volunteer and impact your society</h3>
+                    <p>
+                        Become a volunteer and be part of history today, join the thousands
+                        of volunteer making impact. Efico is looking for diverse volunteers - 
+                        just like you. Be part of our inspiration onto action.
+                    </p>
+
               <div className="vol-btn">
                 <a
                   href="https://ix3utmky3iq.typeform.com/to/a8OnrbCm"
@@ -130,6 +150,7 @@ class ProjectPage extends Component {
               <img src={volunteer} alt="" />
             </div>
           </div>
+        </div>
         </div>
 
         <Footer />
