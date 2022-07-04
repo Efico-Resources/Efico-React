@@ -89,7 +89,7 @@ const ProjectAlbum = () => {
                     Leadership Development Model
                   </p>
                 </div>
-                <div className="vol-btn" style={{background: 'green', margin: '0'}}>
+                <div className="vol-btnnn">
                   <a
                     href="https://ix3utmky3iq.typeform.com/to/a8OnrbCm"
                     target="_blank"
