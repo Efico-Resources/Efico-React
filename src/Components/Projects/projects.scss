@@ -253,7 +253,7 @@
     display: flex;
     margin-top: 4%;
     h2 {
-        color: green;
+        color: black;
         font-weight: bolder;
     }
 }
@@ -271,7 +271,7 @@
         margin-top: 1rem;
     }
     h4{
-        color: green;
+        // color: green;
         font-weight: bolder;
         font-size: large;
         margin: 2rem 0 1rem 0;
@@ -280,7 +280,7 @@
         margin: 1rem 0;
     }
     span {
-        color: rgb(60, 24, 91);
+        color: green;
     }
     @media (max-width: 767px){
         margin-left: 0%;
@@ -290,7 +290,6 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1% 6%;
-    color: green;
     margin-top: 2%;
 
     p {
@@ -300,6 +299,7 @@
     span {
         display: flex;
         justify-content: flex-end;
+    color: green;
     }
     @media (max-width: 767px){
         padding: 1% 2%;
@@ -311,17 +311,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
-
-}
-.h2-n2{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
     @media (max-width: 767px){
         flex-direction: column;
       }
+}
+.h20 {
+    width: 40%;
+    height: 40%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.h2-n2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
 }
 .vp-img-sect {
     display: flex;
@@ -333,12 +341,12 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border: 10px solid green;
     }
 }
 .vp-img-hgt {
     width: 50vh;
     height: 80%;
+    border: 7px solid green;
 }
 .vp-img-flex {
     display: flex;

@@ -128,11 +128,23 @@ class ViewProject extends Component {
 
         <div className="project-trans">
           <div className="h2-n2">
-            <img src={h20} alt="" />
-            <img src={n2o} alt="" />
-            <img src={c03} alt="" />
+          <div className='h20'>
+            <img src={h20} alt="Efico Resources " />
+            </div>  
+            <div className='h20'>
+             <img src={n2o} alt="Efico Resources" />
+            </div>
           </div>
-          <img src={ch4} alt="" />
+
+          <div className="h2-n2">
+          <div className='h20'>
+          <img src={c03} alt="Efico Resources" />
+            </div>
+            <div className='h20'>
+            <img src={ch4} alt="Efico Resources" />
+            </div>
+          
+          </div>
         </div>
 
         <div className="view-sc">
@@ -247,10 +259,10 @@ class ViewProject extends Component {
             <div className="vp-img-sect">
               <div className="vp-img-flex">
                 <div className="vp-img-hgt">
-                  <img src={photo1} alt="Save The Climate" />
+                  <img src={photo1} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
-                  <img src={photo2} alt="Save The Climate" />
+                  <img src={photo2} alt="Efico Resources" />
                 </div>
               </div>
 
@@ -263,7 +275,7 @@ class ViewProject extends Component {
               >
                 <div className="vp-img-bt">
                   <div className="vp-img-hgt">
-                    <img src={photo3} alt="Save The Climate" />
+                    <img src={photo3} alt="Efico Resources" />
                   </div>
                 </div>
               </div>
@@ -391,7 +403,7 @@ class ViewProject extends Component {
                         style={{
                           textDecoration: "none",
                           color: "black",
-                          background: "yellow",
+                          background: "#E1DB46",
                           fontWeight: "bolder",
                           borderRadius: "10px",
                           padding: "10px 30px",
@@ -441,7 +453,7 @@ class ViewProject extends Component {
                             style={{
                               textDecoration: "none",
                               color: "black",
-                              background: "yellow",
+                              background: "#E1DB46",
                               fontWeight: "bolder",
                               borderRadius: "10px",
                               padding: "10px 30px",
