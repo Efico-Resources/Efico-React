@@ -67,7 +67,7 @@ const ProjectAlbum = () => {
             <div className="volunteer-faq">
               {" "}
               <div className="volunteer-sct">
-                <div className="volunteer-sct-flex" style={{ color: "green" }}>
+                <div className="volunteer-sct-flex">
                   <span>
                     <FontAwesomeIcon
                       icon={faCubesStacked}
@@ -89,7 +89,7 @@ const ProjectAlbum = () => {
                     Leadership Development Model
                   </p>
                 </div>
-                <div className="vol-btn" style={{background: 'green'}}>
+                <div className="vol-btn" style={{background: 'green', margin: '0'}}>
                   <a
                     href="https://ix3utmky3iq.typeform.com/to/a8OnrbCm"
                     target="_blank"

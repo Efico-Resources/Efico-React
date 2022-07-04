@@ -25,10 +25,10 @@ class ProjectHeader extends Component {
             {subsubtitle}
           </div>
           {showBtn && (
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div style={{ display: "flex", justifyContent: "space-between"}}>
               <div
                 className="vol-btn"
-                style={{ width: "10rem", background: "transparent", border: '1px solid white', borderRadius: '4px' }}
+                style={{ width: "9rem", marginLeft: '0px', background: "transparent", border: '1px solid white', borderRadius: '4px' }}
               >
                 <a
                   href="https://ix3utmky3iq.typeform.com/to/a8OnrbCm"
@@ -40,7 +40,7 @@ class ProjectHeader extends Component {
               </div>
               <div
                 className="vol-btn"
-                style={{ width: "10rem", border: '1px solid white', borderRadius: '4px' }}
+                style={{ width: "9rem", border: '1px solid white', borderRadius: '4px' }}
               >
                 <a
                   href="https://flutterwave.com/pay/savetheclimateprojectfcat"

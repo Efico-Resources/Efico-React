@@ -19,7 +19,7 @@ let teamMemberArray = [
 class LandingPage extends Component { 
     render() {
         return (
-            <div>
+            <div style={{overflow: 'hidden'}}>
                 <Header 
                     title = "Become part of of Africa's leading sustainability education/advisory hub"
                     subtitle = "First, discover your strength and natural zone of competence using a personalized self Assessment test."
