@@ -10,12 +10,10 @@ h4 {
 .section {
   width: 100%;
 }
-
 .icon {
   font-size: 3rem;
   color: green;
 }
-
 .section-center {
   margin: 0 auto;
   margin-top: 4rem;
@@ -25,7 +23,6 @@ h4 {
   display: flex;
   overflow: hidden;
 }
-
 article {
   position: absolute;
   display: flex;
@@ -37,7 +34,6 @@ article {
   transition: all 0.3s linear;
   background: #ecf5f0;
 }
-
 article.activeSlide {
   opacity: 1;
   transform: translateX(0);
@@ -48,7 +44,11 @@ article.lastSlide {
 article.nextSlide {
   transform: translateX(100%);
 }
-
+.slider-img-person {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .person-img {
   width: 100%;
   object-fit: cover;
@@ -82,7 +82,6 @@ article h4 {
 .texxt {
   margin-top: 1rem;
 }
-
 .prev,
 .next {
   position: absolute;

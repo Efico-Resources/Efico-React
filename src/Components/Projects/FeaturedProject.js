@@ -38,6 +38,10 @@ class FeauturedProject extends Component {
         <div className="feautured-outer">
           <div className="first-details">
             <h1>AFRICA IS HEATING UP, WHAT ARE YOU DOING ABOUT IT?</h1>
+            <p>
+                    A project that utilizes African undergraduates and recent graduates
+                    to combact the growing effect of climate change in Africa.
+                  </p>
             <Link to='/viewproject'>  View project  </Link>
             
           </div>

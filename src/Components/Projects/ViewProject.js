@@ -46,6 +46,8 @@ class ViewProject extends Component {
                 system. Observations made on and above Earth's surface shows the
                 planet's climate is changing majorly because of human
                 activities.
+                A project that utilizes African undergraduates and recent graduates
+                to combact the growing effect of climate change in Africa.
               </p>
             </div>
 
@@ -85,7 +87,7 @@ class ViewProject extends Component {
             <div className="cross-container">
               <h5>Founder's story</h5>
               <p>
-                An oil/gas graduate from Petroleum Training Institute and the
+                David Adefunmilayo is an oil/gas graduate from Petroleum Training Institute and the
                 University of Lagos. During his 400 level internship in the
                 Department of Petroleum Resources (DPR) - the regulator of the
                 oil and gas industry in Nigeria, he came to understand the
@@ -128,22 +130,21 @@ class ViewProject extends Component {
 
         <div className="project-trans">
           <div className="h2-n2">
-          <div className='h20'>
-            <img src={h20} alt="Efico Resources " />
-            </div>  
-            <div className='h20'>
-             <img src={n2o} alt="Efico Resources" />
+            <div className="h20">
+              <img src={h20} alt="Efico Resources " />
+            </div>
+            <div className="h20">
+              <img src={n2o} alt="Efico Resources" />
             </div>
           </div>
 
           <div className="h2-n2">
-          <div className='h20'>
-          <img src={c03} alt="Efico Resources" />
+            <div className="h20">
+              <img src={c03} alt="Efico Resources" />
             </div>
-            <div className='h20'>
-            <img src={ch4} alt="Efico Resources" />
+            <div className="h20">
+              <img src={ch4} alt="Efico Resources" />
             </div>
-          
           </div>
         </div>
 
@@ -392,7 +393,7 @@ class ViewProject extends Component {
                     Support our impact! Donations & funds will go a long way as
                     to carry out numerous national and international projects,
                     creating awareness, contributing to training and sustainable
-                    positive change aroung the world.
+                    positive change around the world.
                   </p>
                   <div style={{ display: "flex", textAlign: "start" }}>
                     <div style={{ marginTop: 10 + "px", marginRight: "4%" }}>
@@ -413,12 +414,19 @@ class ViewProject extends Component {
                       </a>
                     </div>
                     <div style={{ marginTop: 10 + "px" }}>
-                      <Link
-                        to="/contact-us"
+                      <a
+                        href="https://wa.me/message/J7OLLH63J2CQP1"
+                        target="blank"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         <h5>Contact Us</h5>
-                      </Link>
+                      </a>
+                      {/* <Link
+                        to="/contact-us"
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -463,12 +471,13 @@ class ViewProject extends Component {
                           </a>
                         </div>
                         <div style={{ marginTop: 10 + "px" }}>
-                          <Link
-                            to="/contact-us"
+                          <a
+                            href="https://wa.me/message/J7OLLH63J2CQP1"
+                            target="blank"
                             style={{ textDecoration: "none", color: "white" }}
                           >
                             <h5>Contact Us</h5>
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -481,23 +490,22 @@ class ViewProject extends Component {
             {/* TEAM SECTION */}
 
             <div className="project-team">
-
-            <div className="cross-flex">
-              <div className="cross-icon">
-                <FontAwesomeIcon icon={faCubesStacked} />
+              <div className="cross-flex">
+                <div className="cross-icon">
+                  <FontAwesomeIcon icon={faCubesStacked} />
+                </div>
+                <h2>Team</h2>
               </div>
-              <h2>Team</h2>
-            </div>
-            <div className="cross-container">
-              <h5>Our core values are established in unity,
-                these amazing team made this project a reality.
-              </h5>
-            </div>
+              <div className="cross-container">
+                <h5>
+                  Our core values are established in unity, these amazing team
+                  made this project a reality.
+                </h5>
+              </div>
 
-            <div className="project-slider">
-              <Slider />
-            </div>
-
+              <div className="project-slider">
+                <Slider />
+              </div>
             </div>
           </div>
         </div>

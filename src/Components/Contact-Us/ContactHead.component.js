@@ -55,7 +55,15 @@ function ContactHead() {
                 <p>Some of our sponsors in the past have been individuals, grant providers and organizations.
             You too can be one of our sponsors to fulfil our vision of liberating economic prosperity by
             addressing the grassroots.</p>
-            <button>contact us</button>
+            <button>
+            <a
+                        href="https://wa.me/message/J7OLLH63J2CQP1"
+                        target="blank"
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        Contact Us
+                      </a>
+            </button>
             </div>
                 <ContactForm />
             </div>
