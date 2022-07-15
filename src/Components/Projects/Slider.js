@@ -44,7 +44,9 @@ const Slider = () => {
           }
           return (
             <article className={position} key={id}>
+              <div className='slider-img-person'>
               <img src={img} alt={name} className="person-img" />
+              </div>
               <div className='articles-texts'>
                 <h4>{name}</h4>
               <p className="title">{title}</p>
@@ -69,21 +71,21 @@ const Slider = () => {
 
 const team = [
     {
-        id: 1,
-        img: '/teamImages/karim.jpg',
-        name: 'Karim Ibrik',
-        title: 'Project Advisor',
-        quote: 'MBA Graduate, Stamford',
-        summary: 'Karim is the Chief Technical Officer of H cycle, a company in California, US that specialize in the production of low-carbon hydrogen using innovation waste processing system, redirecting mucipal waste before they hit landfills.'
-    },
-    {
-        id: 2,
+      id: 1,
         img: '/teamImages/david.jpg',
         name: 'David Adefunmilayo',
         title: 'Project Director',
         quote: 'Founder, Efico Resources',
         summary: 'David Adefunmilayo is the pioneer and visioneer of this project. His work lies at the nexus of property consulting, poetry and climate activism in Africa.'
     },
+    {
+      id: 2,
+      img: '/teamImages/karim.jpg',
+        name: 'Karim Ibrik',
+        title: 'Project Advisor',
+        quote: 'MBA Graduate, Stamford',
+        summary: 'Karim is the Chief Technical Officer of H cycle, a company in California, US that specialize in the production of low-carbon hydrogen using innovation waste processing system, redirecting mucipal waste before they hit landfills.'
+  },
     {
       id: 3,
       img: '/teamImages/Vincent.jpg',

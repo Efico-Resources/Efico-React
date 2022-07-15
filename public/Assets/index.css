@@ -140,12 +140,11 @@ header nav .nav-content .nav-links ul li a:active {
 }
 
 .header-contents .header-title h1 {
-  /* font-size: 35px; */
   font-weight: 700;
 }
 
 .header-contents .header-title, .header-contents .header-description {
-  margin: auto;
+  margin-bottom: inherit;
   text-align: center;
 }
 
