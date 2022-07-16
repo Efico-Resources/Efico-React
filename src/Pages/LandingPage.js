@@ -51,7 +51,7 @@ class LandingPage extends Component {
               </div>
               <h2>Save The Climate PROJECT</h2>
             </div>
-            <p style={{ textAlign: "start", marginLeft: "5%" }}>
+            <p style={{ textAlign: "start", marginLeft: "6%", marginTop: '1%' }}>
               Africa is heating up causing significant changes in the climate
               system. Observations made on and above Earth's surface shows the
               planet's climate is changing majorly because of human activities.

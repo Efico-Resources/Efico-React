@@ -27,7 +27,7 @@ let onStillBars = {
 let navLinksArray = [
     {linkName: "Go back to Home", link: "/"},
     {linkName: "Overview", link: "/project"},
-    {linkName: "Featured Projects", link: "/feautured"}
+    {linkName: "Featured Projects", link: "/featuredprojects"}
 ]
 
 

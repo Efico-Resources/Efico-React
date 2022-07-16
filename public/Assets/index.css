@@ -23,6 +23,17 @@ body {
   overflow: auto;
   background: #F3F3F3 !important;
 }
+body::-webkit-scrollbar{ 
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #E1DB46;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+  background-color: grey;
+}
+
 
 .home {
   background: var(--background-dim), url("img/1.jpg") center center no-repeat;

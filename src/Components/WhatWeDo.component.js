@@ -15,7 +15,7 @@ let hoverCardsdets = [
     text: "Writing",
     img: "cImg-2",
     description:
-      "We offer all forms of writing services- CV, applications, scholarship and business plan writting.",
+      "We offer all forms of writing services- CV, cover letter, Visa applications, job applications, scholarships, foreign school application and business plan writing.",
     index: 2,
   },
   {
