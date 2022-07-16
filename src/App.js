@@ -60,7 +60,7 @@ function App() {
           <ScrollToTop />
           <ProjectPage />
         </Route>
-        <Route path="/feautured" exact={true}>
+        <Route path="/featuredprojects" exact={true}>
           <ScrollToTop />
           <FeauturedProject />
         </Route>

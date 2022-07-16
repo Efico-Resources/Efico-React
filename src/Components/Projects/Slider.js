@@ -45,7 +45,7 @@ const Slider = () => {
           return (
             <article className={position} key={id}>
               <div className='slider-img-person'>
-              <img src={img} alt={name} className="person-img" />
+              <img src={img} alt={name} />
               </div>
               <div className='articles-texts'>
                 <h4>{name}</h4>
