@@ -89,7 +89,7 @@ article h4 {
 .prev,
 .next {
   position: absolute;
-  top: 400px;
+  top: 420px;
   transform: translateY(-50%);
   background: green;
   width: 2rem;
@@ -121,6 +121,11 @@ article h4 {
     height: 2rem;
     font-size: 1.5rem;
   top: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .section-center {
+    height: 120vh !important;
   }
 }
 
