@@ -36,7 +36,7 @@ class FeauturedProject extends Component {
             </div>
             <h2>Save The Climate PROJECT</h2>
           </div>
-          <p style={{ textAlign: "start", marginLeft: "6%", marginTop: '1%' }}>
+          <p style={{ textAlign: "start", marginLeft: "6%", marginTop: "1%" }}>
             Africa is heating up causing significant changes in the climate
             system. Observations made on and above Earth's surface shows the
             planet's climate is changing majorly because of human activities.
@@ -46,9 +46,10 @@ class FeauturedProject extends Component {
               <div className="first-details">
                 <h1>AFRICA IS HEATING UP, WHAT ARE YOU DOING ABOUT IT?</h1>
                 <p>
-                  A project that utilizes African undergraduates and recent
-                  graduates to combact the growing effect of climate change in
-                  Africa.
+                  This project utilizes African undergraduates and recent
+                  graduates to combat the growing effect of climate change
+                  through research, business model and individual creative
+                  abilities.
                 </p>
                 <Link to="/viewproject"> View project </Link>
               </div>

@@ -48,6 +48,18 @@ function Footer() {
             </span>
           </span>
           <br />
+          <span>
+          <button className="view-fs-btn" 
+          style={{marginTop: '1rem', padding: '10px', height: '3rem', color: 'black'}}>
+              <a
+                href="https://flutterwave.com/pay/savetheclimateprojectfcat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Donate
+              </a>
+            </button>
+          </span>
         </div>
         <div className="col2" style={{ paddingBottom: 2 + "em" }}>
           <h5 className="co2">Efico</h5>
@@ -159,6 +171,7 @@ function Footer() {
             </a>
           </span>
         </div>
+        
         <div className="child1">
           <p> &copy; 2022 All Rights Reserved</p>
         </div>

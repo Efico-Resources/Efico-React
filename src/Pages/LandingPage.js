@@ -33,8 +33,8 @@ class LandingPage extends Component {
     return (
       <div style={{ overflow: "hidden" }}>
         <Header
-          title="Become part of Africa's leading sustainability education/advisory hub"
-          subtitle="First, discover your strength and natural zone of competence using a personalized self Assessment test."
+          title="Become a part of Africa's leading sustainability education/advisory hub"
+          subtitle="First, watch this video and discover your strength and natural abilities by completing this self-assessment test."
           showBtn={true}
           image="home"
         />
@@ -51,7 +51,9 @@ class LandingPage extends Component {
               </div>
               <h2>Save The Climate PROJECT</h2>
             </div>
-            <p style={{ textAlign: "start", marginLeft: "6%", marginTop: '1%' }}>
+            <p
+              style={{ textAlign: "start", marginLeft: "6%", marginTop: "1%" }}
+            >
               Africa is heating up causing significant changes in the climate
               system. Observations made on and above Earth's surface shows the
               planet's climate is changing majorly because of human activities.
@@ -61,9 +63,10 @@ class LandingPage extends Component {
                 <div className="first-details">
                   <h1>AFRICA IS HEATING UP, WHAT ARE YOU DOING ABOUT IT?</h1>
                   <p>
-                    A project that utilizes African undergraduates and recent
-                    graduates to combact the growing effect of climate change in
-                    Africa.
+                    This project utilizes African undergraduates and recent
+                    graduates to combat the growing effect of climate change
+                    through research, business model and individual creative
+                    abilities.
                   </p>
                   <Link to="/viewproject"> View project </Link>
                 </div>

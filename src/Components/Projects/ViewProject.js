@@ -26,10 +26,33 @@ class ViewProject extends Component {
     return (
       <div className="projectss">
         <div className="view-fs">
+          <div className="view-fs-header">
+            <h1>Save The Climate PROJECT</h1>
+          </div>
           <h2>Theme:</h2>
-          <h1>"Africa is heating up, what are you doing about it?"</h1>
-          <p>Save The Climate PROJECT</p>
+          <h3>"Africa is heating up, what are you doing about it?"</h3>
+
+          <div className="view-fs-btn-section">
+            <button className="view-fs-btn" style={{marginRight: '2rem'}}>
+              <a
+                href="https://flutterwave.com/pay/savetheclimateprojectfcat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Donate
+              </a>
+            </button>
+            <button className="view-fs-btn" style={{background: 'transparent'}}>
+              <a
+                href="https://wa.me/message/J7OLLH63J2CQP1"
+                target="blank"
+              >
+                Contact Us
+              </a>
+            </button>
+          </div>
         </div>
+
         <div className="view-sc">
           <div className="view-container">
             <div className="links-sc">
@@ -40,14 +63,11 @@ class ViewProject extends Component {
             </div>
 
             <div className="brief-box">
-              <h3>In Brief:</h3>
+              <h3>Overview of the project:</h3>
               <p>
-                Africa is heating up causing significant changes in the climate
-                system. Observations made on and above Earth's surface shows the
-                planet's climate is changing majorly because of human
-                activities.
-                A project that utilizes African undergraduates and recent graduates
-                to combact the growing effect of climate change in Africa.
+                This project utilizes African undergraduates and recent
+                graduates to combat the growing effect of climate change through
+                research, business model and individual creative abilities.
               </p>
             </div>
 
@@ -55,21 +75,24 @@ class ViewProject extends Component {
               <div className="cross-icon">
                 <FontAwesomeIcon icon={faCubesStacked} />
               </div>
-              <h2>About Project</h2>
+              <h2>Executive Summary</h2>
             </div>
 
             <div className="cross-container">
-              <h5>Executive Summary</h5>
               <p>
                 The essence of the Save The Climate Project themed "Africa is
                 heating up, what are you doing about it?" is a response to the
-                global climate change concern. The COP 26Paris-agreement
-                revitalization have made this climate action a necessary devil.
-                The founder being an oil and gas graduate who made a U-tur to
-                climate activism, have gathered all resources and network to
-                fight this climate crisis. This pitch deck elucidates the
-                problem, causes, and effects of these crisis from the African
-                context by leveraging primary and secondary researches.
+                global climate change concern. The Climate Change Conference
+                held in Glasgow, November 2021 (COP 26) have vitalized this our
+                action for African’s Climate. David Adefunmilayo (the poineer)
+                being an oil and gas graduate who made a U-turn to climate
+                activism, has gathered his resources and network to fight this
+                climate crisis.
+              </p>
+              <p>
+                This pitch deck elucidates the problems, causes and effects of
+                these crisis from the African context, shows our vision for the
+                future, and adjoins you to partners with us.
               </p>
             </div>
 
@@ -87,17 +110,19 @@ class ViewProject extends Component {
             <div className="cross-container">
               <h5>Founder's story</h5>
               <p>
-                David Adefunmilayo is an oil/gas graduate from Petroleum Training Institute and the
-                University of Lagos. During his 400 level internship in the
-                Department of Petroleum Resources (DPR) - the regulator of the
-                oil and gas industry in Nigeria, he came to understand the
-                concept of climate change and how fossil fuel was potentially
-                destroying the planet. The founder made a U-turn and started
-                Efico resources to help students with work place skills while
-                finding his footing in driving climate change activism in
-                Africa. The founder joined many change-making communities to
-                learn about this challenge and started designing an
-                impact-driven roadmap.
+                David Adefunmilayo is an oil/gas graduate from Petroleum
+                Training Institute and the University of Lagos. During his 400
+                level internship in the Department of Petroleum Resources (DPR)
+                - the regulator of the oil and gas industry in Nigeria. He came 
+                to understand the concept of climate change, how fossil fuel 
+                constitutes a major effect to the crisis, and he experienced 
+                first-hand how flooding and many of its effects threatens the 
+                rights to happiness in his local communities. He then made a U-turn
+                and started Efico edtech resources to help students with work place
+                skills while finding his footing in driving climate change
+                activism in Africa. He also joined many change-making
+                communities to learn about this challenge and started designing
+                an impact-driven roadmap.
               </p>
             </div>
 
@@ -176,6 +201,70 @@ class ViewProject extends Component {
               <span>- Intergovernmental Panel on Climate Change</span>
             </div>
 
+            
+
+            <div className="cross-flex">
+              <div className="cross-icon">
+                <FontAwesomeIcon icon={faCubesStacked} />
+              </div>
+              <h2>What Happened</h2>
+            </div>
+            <div className="cross-container">
+            <h5>Challenge</h5>
+              <p>
+                How can we use education, technology, community engagement and
+                nature-based solutions to <br />
+                <span> &#9679;</span> Combat the effects of climate change in
+                Africa?
+                <br />
+                <span> &#9679;</span> Adapt these effects when the world is slow
+                to respond?
+              </p>
+
+              <h5 style={{fontSize: 'x-large'}}>What are we doing?</h5>
+              <h4> Our research strategy</h4>
+              <p>
+                <span> &#9632;</span> We started building a research plan for
+                the following weeks based on community and NGO needs, focusing
+                on the issue that is more relevant for the community in the
+                moment.
+              </p>
+              <h4>
+                We are raising awareness to local communities - especially across Africa
+              </h4>
+              <p>
+                <span> &#9632;</span> We have designed t-shirts that immediately
+                make poeple aware about climate change and have trained
+                ambassadors/activists to speak about it everywhere they go.
+                <br />
+                <span> &#9632;</span> We have leveraged social media to recruit
+                and inspire passonate student volunteers and activists, and
+                gained communty-buyings and engagements.
+                <br />
+                <span> &#9632;</span> We have utilized volunteers for awareness
+                campaigns and gotten over 500 activists across the African
+                landscape to join the movement.
+              </p>
+              <h4>We are recruiting passionate activists</h4>
+              <p>
+                <span> &#9632;</span> We have also communicated this movement
+                across the African borders and have inspired non-African
+                activists to join the movement.
+              </p>
+
+              <h4>
+                We are pushing for ratification of climate education into academic
+                curriculum
+              </h4>
+              <h4>
+                We are utilizing students to get interdisciplinary skills for climate
+                tech research
+              </h4>
+              <h4>We are leveraging notable UN Environmental Days in the 
+                year for community actions and engagements.</h4>
+                <h4>We getting buy-ins from non-Africans to advocate for Africa.</h4>
+            </div>
+
             <div className="cross-flex">
               <div className="cross-icon">
                 <FontAwesomeIcon icon={faCubesStacked} />
@@ -195,66 +284,6 @@ class ViewProject extends Component {
                 <span> &#9679;</span> 2 in 3 of the Africans adopt green
                 transports and homes.
               </p>
-              <h5>Challenge</h5>
-              <p>
-                How can we use education, technology, community engagement and
-                nature-based solutions to <br />
-                <span> &#9679;</span> Combat the effects of climate change in
-                Africa?
-                <br />
-                <span> &#9679;</span> Adapt these effects when the world is slow
-                to respond?
-              </p>
-            </div>
-
-            <div className="cross-flex">
-              <div className="cross-icon">
-                <FontAwesomeIcon icon={faCubesStacked} />
-              </div>
-              <h2>What Happened</h2>
-            </div>
-            <div className="cross-container">
-              <h5>What we have done so far</h5>
-              <h4>Research strategy</h4>
-              <p>
-                <span> &#9632;</span> We started building a research plan for
-                the following weeks based on community and NGO needs, focusing
-                on the issue that is more relevant for the community in the
-                moment.
-              </p>
-              <h4>
-                Raise awareness to local communities - especially across Africa
-              </h4>
-              <p>
-                <span> &#9632;</span> We have designed t-shirts that immediately
-                make poeple aware about climate change and have trained
-                ambassadors/activists to speak about it everywhere they go.
-                <br />
-                <span> &#9632;</span> We have leveraged social media to recruit
-                and inspire passonate student volunteers and activists, and
-                gained communty-buyings and engagements.
-                <br />
-                <span> &#9632;</span> We have utilized volunteers for awareness
-                campaigns and gotten over 500 activists across the African
-                landscape to join the movement.
-              </p>
-              <h4>Recruit passionate activists</h4>
-              <p>
-                <span> &#9632;</span> We have also communicated this movement
-                across the African borders and have inspired non-African
-                activists to join the movement.
-              </p>
-
-              <h4>
-                Push for ratification of climate education into academic
-                curriculum
-              </h4>
-              <h4>
-                Utilise students to get interdisciplinary skills for climate
-                tech research
-              </h4>
-              <h4>Communuty engagemets</h4>
-              <h4>Leveraged on notable UN environmental days in the year</h4>
             </div>
 
             <div className="vp-img-sect">
@@ -308,8 +337,8 @@ class ViewProject extends Component {
               </div>
 
               <div className="stat-grid">
-                <p>2000</p>
-                <h3>Newsletter subscribers</h3>
+                <p>7000</p>
+                <h3>Students Impacted</h3>
               </div>
 
               <div className="stat-grid">
@@ -323,12 +352,12 @@ class ViewProject extends Component {
               </div>
 
               <div className="stat-grid">
-                <p>30%</p>
+                <p>30</p>
                 <h3>Research published</h3>
               </div>
 
               <div className="stat-grid">
-                <p>3</p>
+                <p>6</p>
                 <h3>Continental actions</h3>
               </div>
 
@@ -362,7 +391,7 @@ class ViewProject extends Component {
                 className="sct-1"
                 style={{ marginLeft: "2%", alighItems: "center" }}
               >
-                <h5>Come 2030, we seek to:</h5>
+                <h5>Come 2030, we seek to have these impacts in Africa:</h5>
                 <p>
                   <span> &#9679;</span> impact 10 million students
                   <br />
@@ -370,6 +399,14 @@ class ViewProject extends Component {
                   <br />
                   <span> &#9679;</span> plant 1 million trees <br />
                   <span> &#9679;</span> implement 10,000 community engagements
+                  <br />
+                  <span> &#9679;</span> produce 200 climate business solutions
+                  <br />
+                  <span> &#9679;</span> published 5000 research papers
+                  <br />
+                  <span> &#9679;</span> develop 500 estates powered by renewable energy
+                  <br />
+                  <span> &#9679;</span> plant 1 million trees
                   <br />
                 </p>
               </div>

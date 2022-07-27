@@ -208,7 +208,7 @@
 //   View Projects
 
 .view-fs {
-    min-height: 60vh;
+    min-height: 80vh;
     background: green;
     color: white;
     display: flex;
@@ -219,15 +219,53 @@
     h2 {
         text-align: start;
     }
-    h1 {
+    h3 {
         text-transform: uppercase;
         font-weight: bolder;
+        font-size: xx-large;
         margin: 1rem 0;
         padding: 0% 5%;
+
+        @media (max-width: 767px){
+            font-size: x-large;
+          }
     }
-    p {
-        color: yellow;
+}
+.view-fs-header {
+    margin-bottom: 5%;
+    h1 {
+        color: #E1DB46;
+        font-weight: bolder;
+        text-transform: uppercase;
     }
+}
+.view-fs-btn-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.view-fs-btn {
+    border: 2px solid #E1DB46;
+    border-radius: 10px;
+    background: #E1DB46;
+    color: white;
+    width: 13rem;
+    height: 4rem;
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+
+    a:hover {
+        color: #E1DB46;
+    }
+
+    @media (max-width: 600px){
+        width: 8rem;
+        height: 3rem;
+        padding: 7px;
+      }
 }
 .view-sc {
     min-height: 100vh;
@@ -295,9 +333,9 @@
         margin-top: 1rem;
     }
     h4{
-        // color: green;
         font-weight: bolder;
         font-size: large;
+        text-transform: none;
         margin: 2rem 0 1rem 0;
     }
     p {
