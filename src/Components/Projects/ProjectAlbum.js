@@ -35,10 +35,33 @@ const ProjectAlbum = () => {
           <div className="projectss">
         {" "}
         <div className="view-fs">
+        <div className="view-fs-header">
+            <h1>Save The Climate PROJECT</h1>
+          </div>
           <h2>Theme:</h2>
-          <h1>"Africa is heating up, what are you doing about it?"</h1>
-          <p>Save The Climate PROJECT</p>
+          <h3>"Africa is heating up, what are you doing about it?"</h3>
+
+          <div className="view-fs-btn-section">
+            <button className="view-fs-btn" style={{marginRight: '2rem'}}>
+              <a
+                href="https://flutterwave.com/pay/savetheclimateprojectfcat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Donate
+              </a>
+            </button>
+            <button className="view-fs-btn" style={{background: 'transparent'}}>
+              <a
+                href="https://wa.me/message/J7OLLH63J2CQP1"
+                target="blank"
+              >
+                Contact Us
+              </a>
+            </button>
+          </div>
         </div>
+        
         <div className="view-sc">
           <div className="view-container">
             <div className="links-sc">
