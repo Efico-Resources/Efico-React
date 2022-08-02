@@ -27,6 +27,11 @@ class ViewProject extends Component {
       <div className="projectss">
         <div className="view-fs">
           <div className="view-fs-header">
+          <Link to="/" style={{ fontWeight: "bolder", color: 'white' }}>
+        <h4 style={{textAlign: 'right', marginBottom: '5rem '}}>
+            Back to home
+              </h4>
+              </Link>{" "}
             <h1>Save The Climate PROJECT</h1>
           </div>
           <h2>Theme:</h2>
@@ -224,10 +229,13 @@ class ViewProject extends Component {
               <h5 style={{fontSize: 'x-large'}}>What are we doing?</h5>
               <h4> Our research strategy</h4>
               <p>
-                <span> &#9632;</span> We started building a research plan for
-                the following weeks based on community and NGO needs, focusing
-                on the issue that is more relevant for the community in the
-                moment.
+                <span> &#9632;</span> We are leveraging business models to fight
+                climate change.
+              </p>
+              <p>
+                <span> &#9632;</span> We have created an ecosystem that helps young
+                people with the resources for businesses that is targeted towards
+                adaptation and mitigation.
               </p>
               <h4>
                 We are raising awareness to local communities - especially across Africa
@@ -274,6 +282,8 @@ class ViewProject extends Component {
             <div className="cross-container">
               <h5>What if:</h5>
               <p>
+              <span> &#9679;</span> All African businesses are eco-friendly.
+                <br />
                 <span> &#9679;</span> 90% of Africans are aware about this
                 climate crisis.
                 <br />

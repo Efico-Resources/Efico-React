@@ -36,6 +36,13 @@ const ProjectAlbum = () => {
         {" "}
         <div className="view-fs">
         <div className="view-fs-header">
+          
+        <Link to="/" style={{ fontWeight: "bolder", color: 'white' }}>
+        <h4 style={{textAlign: 'right', marginBottom: '5rem '}}>
+            Back to home
+              </h4>
+              </Link>{" "}
+
             <h1>Save The Climate PROJECT</h1>
           </div>
           <h2>Theme:</h2>
