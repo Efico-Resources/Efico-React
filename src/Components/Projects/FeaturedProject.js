@@ -51,7 +51,7 @@ class FeauturedProject extends Component {
                   through research, business model and individual creative
                   abilities.
                 </p>
-                <Link to="/viewproject"> View project </Link>
+                <Link to="/view-projects"> View project </Link>
               </div>
             </div>
           </div>
