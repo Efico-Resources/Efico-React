@@ -7,6 +7,9 @@ import { faCubesStacked } from "@fortawesome/free-solid-svg-icons";
 import photo1 from "../../headerImages/image1.png";
 import photo2 from "../../headerImages/image2.png";
 import photo3 from "../../headerImages/image3.png";
+import photo6 from "../../headerImages/image6.JPG";
+import photo7 from "../../headerImages/image7.JPG";
+import photo8 from "../../headerImages/image8.JPG";
 import h20 from "../../headerImages/frame10.png";
 import n2o from "../../headerImages/frame11.png";
 import c03 from "../../headerImages/frame12.png";
@@ -26,45 +29,54 @@ class ViewProject extends Component {
     return (
       <div className="projectss">
         <div className="view-fs">
-          <div className="view-fs-header">
-          <Link to="/" style={{ fontWeight: "bolder", color: 'white' }}>
-        <h4 style={{textAlign: 'right', marginBottom: '5rem '}}>
-            Back to home
-              </h4>
+          <div className="view-fs-container">
+            <div className="view-fs-header">
+            <Link
+                to="/project"
+                style={{
+                  fontWeight: "bolder",
+                  color: "white",
+                  position: "absolute",
+                  right: "1rem",
+                  top: "1rem",
+                }}
+              >
+                <h4 style={{ marginTop: "1rem" }}>Back to Projects</h4>
               </Link>{" "}
-            <h1>Save The Climate PROJECT</h1>
-          </div>
-          <h2>Theme:</h2>
-          <h3>"Africa is heating up, what are you doing about it?"</h3>
+              <h1>Save The Climate PROJECT</h1>
+            </div>
+            <h2>Theme:</h2>
+            <h3>"Africa is heating up, what are you doing about it?"</h3>
 
-          <div className="view-fs-btn-section">
-            <button className="view-fs-btn" style={{marginRight: '2rem'}}>
-              <a
-                href="https://flutterwave.com/pay/savetheclimateprojectfcat"
-                target="_blank"
-                rel="noreferrer"
+            <div className="view-fs-btn-section">
+              <button className="view-fs-btn" style={{ marginRight: "2rem" }}>
+                <a
+                  href="https://flutterwave.com/pay/savetheclimateprojectfcat"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Donate
+                </a>
+              </button>
+              <button
+                className="view-fs-btn"
+                style={{ background: "transparent" }}
               >
-                Donate
-              </a>
-            </button>
-            <button className="view-fs-btn" style={{background: 'transparent'}}>
-              <a
-                href="https://wa.me/message/J7OLLH63J2CQP1"
-                target="blank"
-              >
-                Contact Us
-              </a>
-            </button>
+                <a href="https://wa.me/message/J7OLLH63J2CQP1" target="blank">
+                  Contact Us
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
         <div className="view-sc">
           <div className="view-container">
             <div className="links-sc">
-              <Link to="/viewproject" style={{ fontWeight: "bolder" }}>
+              <Link to="/view-projects" style={{ fontWeight: "bolder" }}>
                 Summary{" "}
               </Link>{" "}
-              | <Link to="/album"> Project Album </Link>
+              | <Link to="/project-album"> Project Album </Link>
             </div>
 
             <div className="brief-box">
@@ -118,14 +130,14 @@ class ViewProject extends Component {
                 David Adefunmilayo is an oil/gas graduate from Petroleum
                 Training Institute and the University of Lagos. During his 400
                 level internship in the Department of Petroleum Resources (DPR)
-                - the regulator of the oil and gas industry in Nigeria. He came 
-                to understand the concept of climate change, how fossil fuel 
-                constitutes a major effect to the crisis, and he experienced 
-                first-hand how flooding and many of its effects threatens the 
-                rights to happiness in his local communities. He then made a U-turn
-                and started Efico edtech resources to help students with work place
-                skills while finding his footing in driving climate change
-                activism in Africa. He also joined many change-making
+                - the regulator of the oil and gas industry in Nigeria. He came
+                to understand the concept of climate change, how fossil fuel
+                constitutes a major effect to the crisis, and he experienced
+                first-hand how flooding and many of its effects threatens the
+                rights to happiness in his local communities. He then made a
+                U-turn and started Efico edtech resources to help students with
+                work place skills while finding his footing in driving climate
+                change activism in Africa. He also joined many change-making
                 communities to learn about this challenge and started designing
                 an impact-driven roadmap.
               </p>
@@ -206,8 +218,6 @@ class ViewProject extends Component {
               <span>- Intergovernmental Panel on Climate Change</span>
             </div>
 
-            
-
             <div className="cross-flex">
               <div className="cross-icon">
                 <FontAwesomeIcon icon={faCubesStacked} />
@@ -215,7 +225,7 @@ class ViewProject extends Component {
               <h2>What Happened</h2>
             </div>
             <div className="cross-container">
-            <h5>Challenge</h5>
+              <h5>Challenge</h5>
               <p>
                 How can we use education, technology, community engagement and
                 nature-based solutions to <br />
@@ -226,19 +236,17 @@ class ViewProject extends Component {
                 to respond?
               </p>
 
-              <h5 style={{fontSize: 'x-large'}}>What are we doing?</h5>
-              <h4> Our research strategy</h4>
+              <h5 style={{ fontSize: "x-large" }}>What are we doing?</h5>
+              <h4> We are leveraging business models to fight
+                climate change.</h4>
               <p>
-                <span> &#9632;</span> We are leveraging business models to fight
-                climate change.
-              </p>
-              <p>
-                <span> &#9632;</span> We have created an ecosystem that helps young
-                people with the resources for businesses that is targeted towards
-                adaptation and mitigation.
+                <span> &#9632;</span> We have created an ecosystem that helps
+                young people with the resources for businesses that are targeted
+                towards adaptation and mitigation.
               </p>
               <h4>
-                We are raising awareness to local communities - especially across Africa
+                We are raising awareness to local communities - especially
+                across Africa
               </h4>
               <p>
                 <span> &#9632;</span> We have designed t-shirts that immediately
@@ -261,16 +269,20 @@ class ViewProject extends Component {
               </p>
 
               <h4>
-                We are pushing for ratification of climate education into academic
-                curriculum
+                We are pushing for ratification of climate education into
+                academic curriculum
               </h4>
               <h4>
-                We are utilizing students to get interdisciplinary skills for climate
-                tech research
+                We are utilizing students to get interdisciplinary skills for
+                climate tech research
               </h4>
-              <h4>We are leveraging notable UN Environmental Days in the 
-                year for community actions and engagements.</h4>
-                <h4>We getting buy-ins from non-Africans to advocate for Africa.</h4>
+              <h4>
+                We are leveraging notable UN Environmental Days in the year for
+                community actions and engagements.
+              </h4>
+              <h4>
+                We getting buy-ins from non-Africans to advocate for Africa.
+              </h4>
             </div>
 
             <div className="cross-flex">
@@ -282,7 +294,7 @@ class ViewProject extends Component {
             <div className="cross-container">
               <h5>What if:</h5>
               <p>
-              <span> &#9679;</span> All African businesses are eco-friendly.
+                <span> &#9679;</span> All African businesses are eco-friendly.
                 <br />
                 <span> &#9679;</span> 90% of Africans are aware about this
                 climate crisis.
@@ -299,25 +311,23 @@ class ViewProject extends Component {
             <div className="vp-img-sect">
               <div className="vp-img-flex">
                 <div className="vp-img-hgt">
-                  <img src={photo1} alt="Efico Resources" />
+                  <img src={photo7} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
                   <img src={photo2} alt="Efico Resources" />
                 </div>
-              </div>
-
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <div className="vp-img-bt">
-                  <div className="vp-img-hgt">
-                    <img src={photo3} alt="Efico Resources" />
-                  </div>
+                <div className="vp-img-hgt">
+                  <img src={photo6} alt="Efico Resources" />
                 </div>
+                <div className="vp-img-hgt">
+                  <img src={photo1} alt="Efico Resources" />
+                </div>
+                <div className="vp-img-hgt">
+                  <img src={photo8} alt="Efico Resources" />
+                </div>
+                <div className="vp-img-hgt">
+                  <img src={photo3} alt="Efico Resources" />
+              </div>
               </div>
             </div>
 
@@ -414,7 +424,8 @@ class ViewProject extends Component {
                   <br />
                   <span> &#9679;</span> published 5000 research papers
                   <br />
-                  <span> &#9679;</span> develop 500 estates powered by renewable energy
+                  <span> &#9679;</span> develop 500 estates powered by renewable
+                  energy
                   <br />
                   <span> &#9679;</span> plant 1 million trees
                   <br />

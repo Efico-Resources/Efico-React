@@ -100,7 +100,7 @@ function Footer() {
               <Link to="/project">Projects</Link>
             </li>
             <li className="cont">
-              <Link to="/viewproject">Save The Climate PROJECT</Link>
+              <Link to="/view-projects">Save The Climate PROJECT</Link>
             </li>
           </ul>
         </div>

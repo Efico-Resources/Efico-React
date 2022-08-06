@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function BlogCards() {
     return (
@@ -15,7 +14,7 @@ function BlogCards() {
                         <h2>What kind of learner are you? Take our online quiz to find out.</h2>
                     </div>
                     <div className="read-more-link">
-                        <Link to="/blog">Read more...</Link> 
+                        <a href="https://medium.com/@eficoworld/why-finding-your-personality-type-is-important-to-your-career-success-81baeedc8635" target='_blank' rel='noreferrer'>Read more...</a> 
                     </div>
                 </div>
             </div>

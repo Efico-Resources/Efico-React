@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function LatestBlog() {
     return (
@@ -19,7 +18,7 @@ function LatestBlog() {
                         In a world where more tasks are being automated, and more jobs are getting extinct, changing career paths is, more often than not, a necessity.
                     </div>
                     <div className="read-more-link">
-                        <Link to="/blog">Read more...</Link>
+                    <a href="https://medium.com/@eficoworld/is-your-career-a-sinking-ship-8a4514a62612" target='_blank' rel='noreferrer'>Read more...</a> 
                     </div>
                 </div>
         </div>

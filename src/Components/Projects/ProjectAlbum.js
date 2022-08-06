@@ -35,16 +35,22 @@ const ProjectAlbum = () => {
           <div className="projectss">
         {" "}
         <div className="view-fs">
-        <div className="view-fs-header">
-          
-        <Link to="/" style={{ fontWeight: "bolder", color: 'white' }}>
-        <h4 style={{textAlign: 'right', marginBottom: '5rem '}}>
-            Back to home
-              </h4>
+          <div className="view-fs-container">
+          <div className="view-fs-header">
+              <Link
+                to="/project"
+                style={{
+                  fontWeight: "bolder",
+                  color: "white",
+                  position: "absolute",
+                  right: "1rem",
+                  top: "1rem",
+                }}
+              >
+                <h4 style={{ marginTop: "1rem" }}>Back to Projects</h4>
               </Link>{" "}
-
-            <h1>Save The Climate PROJECT</h1>
-          </div>
+              <h1>Save The Climate PROJECT</h1>
+            </div>
           <h2>Theme:</h2>
           <h3>"Africa is heating up, what are you doing about it?"</h3>
 
@@ -67,13 +73,14 @@ const ProjectAlbum = () => {
               </a>
             </button>
           </div>
+          </div>
         </div>
         
         <div className="view-sc">
           <div className="view-container">
             <div className="links-sc">
-              <Link to="/viewproject">Summary </Link> |{" "}
-              <Link to="/album" style={{ fontWeight: "bolder" }}>
+              <Link to="/view-projects">Summary </Link> |{" "}
+              <Link to="/project-album" style={{ fontWeight: "bolder" }}>
                 {" "}
                 Project Album{" "}
               </Link>

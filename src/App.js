@@ -64,11 +64,11 @@ function App() {
           <ScrollToTop />
           <FeauturedProject />
         </Route>
-        <Route path="/viewproject" exact={true}>
+        <Route path="/view-projects" exact={true}>
           <ScrollToTop />
           <ViewProject />
         </Route>
-        <Route path="/album" exact={true}>
+        <Route path="/project-album" exact={true}>
           <ScrollToTop />
           <ProjectAlbum />
         </Route>

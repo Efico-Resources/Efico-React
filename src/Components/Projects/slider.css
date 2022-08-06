@@ -89,7 +89,7 @@ article h4 {
 .prev,
 .next {
   position: absolute;
-  top: 420px;
+  top: 350px;
   transform: translateY(-50%);
   background: green;
   width: 2rem;
