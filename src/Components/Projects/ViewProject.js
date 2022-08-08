@@ -222,11 +222,33 @@ class ViewProject extends Component {
               <div className="cross-icon">
                 <FontAwesomeIcon icon={faCubesStacked} />
               </div>
-              <h2>What Happened</h2>
+              <h2>Our Vision</h2>
             </div>
             <div className="cross-container">
-              <h5>Challenge</h5>
+              <h5>What if:</h5>
               <p>
+                <span> &#9679;</span> All African businesses are eco-friendly.
+                <br />
+                <span> &#9679;</span> 90% of Africans are aware about this
+                climate crisis.
+                <br />
+                <span> &#9679;</span> 1 in 5 of the African populace planted a
+                tree. <br />
+                <span> &#9679;</span> Gain buyings from non-Africans to advocate
+                for Africa. <br />
+                <span> &#9679;</span> 2 in 3 of the Africans adopt green
+                transports and homes.
+              </p>
+            </div>
+
+            <div className="cross-flex">
+              <div className="cross-icon">
+                <FontAwesomeIcon icon={faCubesStacked} />
+              </div>
+              <h2>The Challenge</h2>
+            </div>
+            <div className="cross-container">
+              <p style={{marginTop: '0rem'}}>
                 How can we use education, technology, community engagement and
                 nature-based solutions to <br />
                 <span> &#9679;</span> Combat the effects of climate change in
@@ -285,50 +307,34 @@ class ViewProject extends Component {
               </h4>
             </div>
 
-            <div className="cross-flex">
-              <div className="cross-icon">
-                <FontAwesomeIcon icon={faCubesStacked} />
-              </div>
-              <h2>Our Vision</h2>
-            </div>
-            <div className="cross-container">
-              <h5>What if:</h5>
-              <p>
-                <span> &#9679;</span> All African businesses are eco-friendly.
-                <br />
-                <span> &#9679;</span> 90% of Africans are aware about this
-                climate crisis.
-                <br />
-                <span> &#9679;</span> 1 in 5 of the African populace planted a
-                tree. <br />
-                <span> &#9679;</span> Gain buyings from non-Africans to advocate
-                for Africa. <br />
-                <span> &#9679;</span> 2 in 3 of the Africans adopt green
-                transports and homes.
-              </p>
-            </div>
 
             <div className="vp-img-sect">
               <div className="vp-img-flex">
                 <div className="vp-img-hgt">
-                  <img src={photo7} alt="Efico Resources" />
+                  <img src={photo1} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
                   <img src={photo2} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
-                  <img src={photo6} alt="Efico Resources" />
+                  <img src={photo3} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
-                  <img src={photo1} alt="Efico Resources" />
+                  <img src={photo7} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
                   <img src={photo8} alt="Efico Resources" />
                 </div>
                 <div className="vp-img-hgt">
-                  <img src={photo3} alt="Efico Resources" />
+                  <img src={photo6} alt="Efico Resources" />
               </div>
               </div>
+
+              <Link to="/project-album" style={{textAlign: 'right', marginTop: '0.5rem', marginBottom: '2rem'}}> 
+              <button className="view-fs-btn" style={{background: 'green', border: 'none'}}>
+                See More...
+              </button>
+               </Link>
             </div>
 
             <div className="cross-flex">
