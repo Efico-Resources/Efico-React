@@ -12,13 +12,22 @@ function Footer() {
             name="email"
             id="email"
             placeholder="Enter Email Address"
+            disabled
           />
         </label>
-        <input type="submit" id="submit" name="submit" value="submit" />
+        <input 
+        type="submit" 
+        disabled
+        id="submit" 
+        name="submit" 
+        value="submit" />
       </form>
       <div className="col-con">
         <div className="col1" style={{ paddingBottom: 2 + "em" }}>
-          <h5 className="co1" style={{ paddingBottom: 0.5 + "em", color: '#E1DB46' }}>
+          <h5
+            className="co1"
+            style={{ paddingBottom: 0.5 + "em", color: "#E1DB46" }}
+          >
             Contact
           </h5>
           <span>
@@ -49,8 +58,15 @@ function Footer() {
           </span>
           <br />
           <span>
-          <button className="view-fs-btn" 
-          style={{marginTop: '1rem', padding: '10px', height: '3rem', color: 'black'}}>
+            <button
+              className="view-fs-btn"
+              style={{
+                marginTop: "1rem",
+                padding: "10px",
+                height: "3rem",
+                color: "black",
+              }}
+            >
               <a
                 href="https://flutterwave.com/pay/savetheclimateprojectfcat"
                 target="_blank"
@@ -171,7 +187,7 @@ function Footer() {
             </a>
           </span>
         </div>
-        
+
         <div className="child1">
           <p> &copy; 2022 All Rights Reserved</p>
         </div>
