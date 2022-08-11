@@ -251,15 +251,22 @@ class ViewProject extends Component {
               <p style={{marginTop: '0rem'}}>
                 How can we use education, technology, community engagement and
                 nature-based solutions to <br />
-                <span> &#9679;</span> Combat the effects of climate change in
+                <span> &#9679;</span> Mitigate the effects of climate change in
                 Africa?
                 <br />
                 <span> &#9679;</span> Adapt these effects when the world is slow
                 to respond?
               </p>
+            </div>
 
-              <h5 style={{ fontSize: "x-large" }}>What are we doing?</h5>
-              <h4> We are leveraging business models to fight
+            <div className="cross-flex">
+              <div className="cross-icon">
+                <FontAwesomeIcon icon={faCubesStacked} />
+              </div>
+              <h2>What are we doing?</h2>
+            </div>
+            <div className="cross-container">
+              <h4 style={{marginTop: '1rem'}}> We are leveraging business models to fight
                 climate change.</h4>
               <p>
                 <span> &#9632;</span> We have created an ecosystem that helps
