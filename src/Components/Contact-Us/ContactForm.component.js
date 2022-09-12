@@ -40,7 +40,7 @@ class ContactForm extends Component {
             <div className="msg">
             <h4>Message</h4>
             <textarea id="message" rows="12" name="message"></textarea>
-            <input type="submit" name="message" value="Send message" />
+            <input type="submit" name="message" value="Send message" disabled />
             </div>
 
         </form>

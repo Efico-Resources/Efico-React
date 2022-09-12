@@ -37,7 +37,7 @@ function ContactHead() {
                     </div>
                 </div>
                 <h3>Social Media Platforms</h3>
-                <div className="sm">
+                <div className="sm" style={{ display: 'flex', justifyContent: 'center', gap: "1rem"}}>
                 <span><Link to="https://www.facebook.com/resources.efico"><i className="fab fa-facebook-square"></i></Link></span>
                 <span><Link to="https://www.instagram.com/p/CSxVJtojf5c/?utm_medium=copy_link"><i className="fab fa-instagram"></i></Link></span>
                 <span><Link to="https://vm.tiktok.com/ZMRHv2mFq/"><i className="fab fa-tiktok"></i></Link></span>

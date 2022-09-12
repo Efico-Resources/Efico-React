@@ -492,12 +492,7 @@ class ViewProject extends Component {
                       >
                         <h5>Contact Us</h5>
                       </a>
-                      {/* <Link
-                        to="/contact-us"
-                        style={{ textDecoration: "none", color: "white" }}
-                      >
-                        
-                      </Link> */}
+                     
                     </div>
                   </div>
                 </div>

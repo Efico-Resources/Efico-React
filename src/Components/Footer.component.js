@@ -58,23 +58,24 @@ function Footer() {
           </span>
           <br />
           <span>
-            <button
+            
+              <a
+                href="https://flutterwave.com/pay/savetheclimateprojectfcat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button
               className="view-fs-btn"
               style={{
                 marginTop: "1rem",
                 padding: "10px",
                 height: "3rem",
                 color: "black",
+                  background: '#E1DB46'
               }}
-            >
-              <a
-                href="https://flutterwave.com/pay/savetheclimateprojectfcat"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Donate
+            > Donate</button>
+                
               </a>
-            </button>
           </span>
         </div>
         <div className="col2" style={{ paddingBottom: 2 + "em" }}>
@@ -92,9 +93,6 @@ function Footer() {
             <li className="cont">
               <Link to="/services">Sponsorship</Link>
             </li>
-            {/* <li className="cont">
-              <Link to="/services">Affiliate Programme</Link>
-            </li> */}
             <li className="cont">
               <Link to="/contact-us">Contact Us</Link>
             </li>
