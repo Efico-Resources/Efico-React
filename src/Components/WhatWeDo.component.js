@@ -65,9 +65,9 @@ class WhatWeDo extends Component {
       <section className="what-we-do">
         <h2 className="section-title">What We Do</h2>
         <div className="what-we-do-content">
-          We build a community of undergraduates and high school students who
-          have undergone self-analysis and understood their role in solving
-          societal problems.
+          We help talented individuals access career advancement opportunities
+          through the UK Global Talent VISA, one-on-one Mentorship and corporate
+          training.
         </div>
         <div className="hover-cards">{this.state.cards}</div>
       </section>

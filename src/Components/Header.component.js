@@ -17,7 +17,7 @@ class Header extends Component{
                     </div>
                     { showBtn &&
                         <div className="header-button" style={{marginTop: 80 + "px"}}>
-                        <a href="https://youtu.be/G-J3VqQ3Jmc" target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "black"}} className="yBtn">
+                        <a href="https://linktr.ee/Efico" target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "black"}} className="yBtn">
                             Start here
                         </a>
                     </div>}
