@@ -8,8 +8,8 @@ function ProjectBlogCards() {
             <div className="blog-contents">
                 <div className="blog-descriptions">
                     <div className="blog-details">
-                        <p className="date">July 2, 2021</p>
-                        <p className="duration">17 mins</p>
+                        {/* <p className="date">July 2, 2021</p> */}
+                        <p className="duration">17 mins read</p>
                     </div>
                     <div className="blog-title">
                         <h2>What kind of learner are you? Take our online quiz to find out.</h2>

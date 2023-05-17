@@ -8,8 +8,8 @@ function LatestBlog() {
                 </div>
                 <div className="lbContents">
                     <div className="blog-details">
-                        <p className="date">July 1, 2021</p>
-                        <p className="duration">3 mins</p>
+                        {/* <p className="date">July 1, 2021</p> */}
+                        <p className="duration">3 mins read</p>
                     </div>
                     <div className="blog-title">
                         <h2>Is your career a sinking ship?</h2>

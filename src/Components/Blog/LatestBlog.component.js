@@ -20,8 +20,8 @@ class LatestBlog extends Component {
                     </div>
                     <div className="latest-post-description">
                         <div className="post-details">
-                            <p className="date">July 1, 2021</p>
-                            <p className="read-time">3 Mins</p>
+                            {/* <p className="date">July 1, 2021</p> */}
+                            <p className="read-time">3 Mins read</p>
                         </div>
                         <div className="blog-title">
                             <h3>Is your career a sinking ship?</h3> 
