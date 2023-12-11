@@ -65,9 +65,9 @@ class WhatWeDo extends Component {
       <section className="what-we-do">
         <h2 className="section-title">What We Do</h2>
         <div className="what-we-do-content">
-          We help talented individuals access career advancement opportunities
-          through the UK Global Talent VISA, one-on-one Mentorship and corporate
-          training.
+          We work at the intersection of Education technology and climate
+          sustainability, providing digital skills trainings and climate tech
+          solutions for Africa’s development.
         </div>
         <div className="hover-cards">{this.state.cards}</div>
       </section>

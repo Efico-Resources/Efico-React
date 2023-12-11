@@ -33,7 +33,7 @@ class LandingPage extends Component {
     return (
       <div style={{ overflow: "hidden" }}>
         <Header
-          title="Become a part of Africa's leading education/advisory hub"
+          title="Become a part of Africa’s leading Education and Climate Tech Hub."
           subtitle="Click below to take a self- assessment/ personality test and directly access our lists of services"
           showBtn={true}
           image="home"
